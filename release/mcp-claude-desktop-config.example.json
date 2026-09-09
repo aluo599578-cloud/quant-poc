@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "quant-research": {
+      "command": "python",
+      "args": [
+        "ABS_PATH_TO_QUANT_POC/mcp_quant_server.py"
+      ],
+      "cwd": "ABS_PATH_TO_QUANT_POC",
+      "env": {
+        "TUSHARE_TOKEN": "YOUR_TUSHARE_TOKEN_HERE"
+      }
+    }
+  }
+}

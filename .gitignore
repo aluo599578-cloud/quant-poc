@@ -48,8 +48,8 @@ desktop.ini
 htmlcov/
 .pytest_cache/
 
-# 打包产物
-release/
+# 打包产物（zip 在 GitHub Release 分发）
+release/quant-poc-release.zip
 
 # OpenClaw
 .openclaw-plugin/node_modules/

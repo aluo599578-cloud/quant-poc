@@ -5,6 +5,19 @@
 
 ![Architecture](docs/screenshots/architecture.png)
 
+## 🚀 立刻能用
+
+| 你想干什么 | 看什么 |
+|---|---|
+| 看回测结果，**不想装任何东西** | 直接看 [`release/quant-dashboard-static.html`](release/quant-dashboard-static.html) — 双击浏览器打开 |
+| 自己跑回测 | 跳到下方 [⚡ 5 分钟跑起来](#⚡-5-分钟跑起来) |
+| 接入 Claude Desktop / Claude Code | 看 [`release/INSTALL_MCP.md`](release/INSTALL_MCP.md) |
+| 看发布清单 | [`release/RELEASE_CHECKLIST.md`](release/RELEASE_CHECKLIST.md) |
+
+## ⚠️ 重要声明
+
+**本项目仅供学习研究，不构成任何投资建议**。所有策略在实盘前必须经过 walk-forward、模拟盘观察和人工审核。A 股市场过去表现不代表未来收益。
+
 ## 🎯 这个项目解决什么
 
 TradingView 是 A 股最好的图表工具，但没有现成的"alert → 模拟下单 → 看 P&L"开源链路能跑通（A 股方向的桥都跑加密/外汇）。本项目：

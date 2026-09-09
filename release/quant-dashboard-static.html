@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Quant PoC 静态报告 - 2026-09-09 17:07</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+            max-width: 1200px; margin: 0 auto; padding: 20px;
+            background: #fafafa; color: #222;
+        }
+        h1 { color: #1a1a2e; border-bottom: 3px solid #c00; padding-bottom: 10px; }
+        h2 { color: #16213e; margin-top: 40px; border-left: 4px solid #c00; padding-left: 12px; }
+        .card { background: white; padding: 20px; margin: 20px 0;
+                border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+        th { background: #c00; color: white; padding: 8px; text-align: left; }
+        td { padding: 8px; border-bottom: 1px solid #eee; }
+        tr:hover { background: #f5f5f5; }
+        .badge { display: inline-block; padding: 3px 8px; border-radius: 4px;
+                  font-size: 0.85em; margin-right: 5px; }
+        .positive { background: #d4edda; color: #155724; }
+        .negative { background: #f8d7da; color: #721c24; }
+        .warning { background: #fff3cd; color: #856404; }
+        .footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #ccc;
+                  font-size: 0.9em; color: #666; }
+    </style>
+</head>
+<body>
+
+<h1>📊 Quant PoC — A 股量化研究静态报告</h1>
+<p><strong>生成时间</strong>: 2026-09-09 17:07 | <strong>项目版本</strong>: v0.1.0 | <strong>回测区间</strong>: 2023-01-01 ~ 2026-09-09</p>
+
+<div class="card">
+    <h2>🚨 重要声明</h2>
+    <p>本报告基于历史数据回测，仅供研究和学习使用，<strong>不构成任何投资建议</strong>。所有策略在实盘前必须经过 walk-forward、模拟盘观察和人工审核。A 股市场的过去表现不代表未来收益。</p>
+</div>
+
+<h2>📋 关键发现</h2>
+<div class="card">
+    <table>
+        <tr><th>股票</th><th>最佳策略</th><th>收益</th><th>Sharpe</th><th>最大回撤</th><th>笔数</th></tr>
+        <tr>
+            <td>002180 纳思达</td>
+            <td>(5,30) + 5% 止损</td>
+            <td><span class="badge positive">+68%</span></td>
+            <td>+0.40</td>
+            <td>-96%</td>
+            <td>59</td>
+        </tr>
+        <tr>
+            <td>000100 TCL</td>
+            <td>(10,60) + MA200（无止损更优）</td>
+            <td><span class="badge positive">+1.2%</span></td>
+            <td>+0.07</td>
+            <td>-5.7%</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>688122 西部超导</td>
+            <td>(10,30) + MA200 + 5% 止损</td>
+            <td><span class="badge positive">+212%</span></td>
+            <td>+0.61</td>
+            <td>-134%</td>
+            <td>~30</td>
+        </tr>
+    </table>
+    <p><span class="badge warning">⚠️ 重要限制</span>所有 24 组参数 + 4 种模式 = <strong>72 次回测</strong>中，<strong>没有任何参数组在 3 只股上都 Sharpe > 0</strong>。双均线在 A 股的稳定性远低于美股。</p>
+</div>
+
+<h2>📈 跨股票 Sharpe 对比</h2>
+<div class="card"><div style="height:400px; width:100%;">                            <div id="fba2da01-544a-486c-8f8c-7f5d687128b8" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("fba2da01-544a-486c-8f8c-7f5d687128b8")) {                    Plotly.newPlot(                        "fba2da01-544a-486c-8f8c-7f5d687128b8",                        [{"marker":{"color":"#1f77b4","size":12,"symbol":"circle"},"mode":"markers","name":"\u7eaf\u53cc\u5747\u7ebf","showlegend":true,"x":["(5,30)","(10,30)","(5,20)","(5,60)","(10,20)","(10,60)"],"y":{"dtype":"f8","bdata":"oHKoraCb1D+Et81hm\u002fnPvz1Wmj5l8dC\u002f6+kegPkL4b+kNnD0i9biv+H3b+O6CvW\u002f"},"type":"scatter","xaxis":"x","yaxis":"y"},{"marker":{"color":"#1f77b4","size":12,"symbol":"circle-open"},"mode":"markers","name":"\u7eaf\u53cc\u5747\u7ebf + 5%\u6b62\u635f","showlegend":true,"x":["(5,30)","(5,20)","(10,30)","(10,20)","(5,60)","(10,60)"],"y":{"dtype":"f8","bdata":"QS0vXwds2T\u002fSGqxtyD+hv1s5FUIb3L+\u002fp7xLtpux2r9fB1r9Nfjcvzcdup3dNvG\u002f"},"type":"scatter","xaxis":"x","yaxis":"y"},{"marker":{"color":"#ff7f0e","size":12,"symbol":"square"},"mode":"markers","name":"+ MA200","showlegend":true,"x":["(5,30)","(5,20)","(10,20)","(10,30)","(10,60)","(5,60)"],"y":{"dtype":"f8","bdata":"OlpZXiYIx7\u002fVLwhIwMXiv6gesBIGUuW\u002fcPXkn2hJ8b8BN+xTI5zxv9oqY6W3QfO\u002f"},"type":"scatter","xaxis":"x","yaxis":"y"},{"marker":{"color":"#ff7f0e","size":12,"symbol":"square-open"},"mode":"markers","name":"+ MA200 + 5%\u6b62\u635f","showlegend":true,"x":["(5,20)","(10,20)","(5,30)","(10,60)","(10,30)","(5,60)"],"y":{"dtype":"f8","bdata":"x5pyOn34yz\u002finxoCYw7FP6trdykLtNO\u002f3AV+KGBp8L8S5lbk\u002fIzwv501nkB88vG\u002f"},"type":"scatter","xaxis":"x","yaxis":"y"},{"marker":{"color":"#1f77b4","size":12,"symbol":"circle"},"mode":"markers","showlegend":false,"x":["(10,60)","(5,60)","(5,20)","(10,20)","(5,30)","(10,30)"],"y":{"dtype":"f8","bdata":"Cvi5wjGDsr8b4xoWXurYvxnNKKLvn92\u002fKq911wgV5r9k8ME0+yTov3aPJtSwo+2\u002f"},"type":"scatter","xaxis":"x2","yaxis":"y2"},{"marker":{"color":"#1f77b4","size":12,"symbol":"circle-open"},"mode":"markers","showlegend":false,"x":["(10,60)","(5,60)","(5,20)","(10,20)","(5,30)","(10,30)"],"y":{"dtype":"f8","bdata":"mIyr484w279SksgIZq3fvz4S\u002f2sqB+S\u002f+oT9Gxx45r+g8SSGAaDov6nqgzRbV\u002fW\u002f"},"type":"scatter","xaxis":"x2","yaxis":"y2"},{"marker":{"color":"#ff7f0e","size":12,"symbol":"square"},"mode":"markers","showlegend":false,"x":["(10,60)","(5,60)","(10,30)","(10,20)","(5,30)","(5,20)"],"y":{"dtype":"f8","bdata":"atlRixVksT9Mws\u002f9dk2Mv\u002fY4MZnXTMy\u002fMcvt8kDp2r8RqOB9kWzhvyBRacYv\u002fuW\u002f"},"type":"scatter","xaxis":"x2","yaxis":"y2"},{"marker":{"color":"#ff7f0e","size":12,"symbol":"square-open"},"mode":"markers","showlegend":false,"x":["(5,60)","(10,20)","(10,60)","(5,30)","(10,30)","(5,20)"],"y":{"dtype":"f8","bdata":"1ikOLb7Dvb8a1ur+9TXYv5LFNej129y\u002fp9ireLaZ4b\u002fFst6nuq3mv+YbFA5+b+e\u002f"},"type":"scatter","xaxis":"x2","yaxis":"y2"},{"marker":{"color":"#1f77b4","size":12,"symbol":"circle"},"mode":"markers","showlegend":false,"x":["(10,60)","(10,30)","(5,60)","(5,30)","(5,20)","(10,20)"],"y":{"dtype":"f8","bdata":"p1iqrWiR1j+MLJ1lDsbQv8K3KuF+M9O\u002fq75Io1wD479xgUMegtLjv3TsUuvlSuS\u002f"},"type":"scatter","xaxis":"x3","yaxis":"y3"},{"marker":{"color":"#1f77b4","size":12,"symbol":"circle-open"},"mode":"markers","showlegend":false,"x":["(10,60)","(10,30)","(5,60)","(10,20)","(5,20)","(5,30)"],"y":{"dtype":"f8","bdata":"oeGMmRTF2D+qLMAoRGujP+mYpB3f8sm\u002fD9x9fEws3L8CJT199n\u002fgvxJe\u002f6kltOm\u002f"},"type":"scatter","xaxis":"x3","yaxis":"y3"},{"marker":{"color":"#ff7f0e","size":12,"symbol":"square"},"mode":"markers","showlegend":false,"x":["(10,60)","(5,20)","(10,30)","(5,60)","(5,30)","(10,20)"],"y":{"dtype":"f8","bdata":"dT+IBED01j+I3au\u002fcHmVPwwmYswxqCK\u002f7XKuLNMxub\u002fRedmcNDDQv8MU9C0WE9q\u002f"},"type":"scatter","xaxis":"x3","yaxis":"y3"},{"marker":{"color":"#ff7f0e","size":12,"symbol":"square-open"},"mode":"markers","showlegend":false,"x":["(10,30)","(10,60)","(5,20)","(10,20)","(5,60)","(5,30)"],"y":{"dtype":"f8","bdata":"H3yiqY+P4z884ERou2fRP55zI+lMTMg\u002fwPYFXZCnwz\u002fstnOVJvG\u002fP0Bceu9oCeG\u002f"},"type":"scatter","xaxis":"x3","yaxis":"y3"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"xaxis":{"anchor":"y","domain":[0.0,0.2888888888888889],"tickangle":-45},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Sharpe Ratio"}},"xaxis2":{"anchor":"y2","domain":[0.35555555555555557,0.6444444444444445],"tickangle":-45},"yaxis2":{"anchor":"x2","domain":[0.0,1.0],"matches":"y","showticklabels":false},"xaxis3":{"anchor":"y3","domain":[0.7111111111111111,1.0],"tickangle":-45},"yaxis3":{"anchor":"x3","domain":[0.0,1.0],"matches":"y","showticklabels":false},"annotations":[{"font":{"size":16},"showarrow":false,"text":"002180 \u7eb3\u601d\u8fbe","x":0.14444444444444446,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"000100 TCL","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"688122 \u897f\u90e8\u8d85\u5bfc","x":0.8555555555555556,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"}],"legend":{"orientation":"h","y":-0.3},"title":{"text":"\u4e09\u53ea\u80a1 24 \u7ec4\u53c2\u6570 Sharpe Ratio \u6a2a\u5411\u5bf9\u6bd4\uff084 \u6a21\u5f0f\uff09"},"height":400,"hovermode":"x unified"},                        {"responsive": true}                    )                };            </script>        </div></div>
+
+<h2>💡 止损影响分析</h2>
+<div class="card"><div style="height:450px; width:100%;">                            <div id="90788435-d259-42bb-b16f-57e824b47797" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("90788435-d259-42bb-b16f-57e824b47797")) {                    Plotly.newPlot(                        "90788435-d259-42bb-b16f-57e824b47797",                        [{"marker":{"color":["#1f77b4","#1f77b4","#2ca02c","#2ca02c"]},"name":"002180 \u7eb3\u601d\u8fbe","showlegend":true,"x":["(5,30)","(5,30)","(5,30)","(5,20)"],"y":[52.27660000000078,-15.173924999999366,68.07186000000075,28.241904999999345],"type":"bar","xaxis":"x","yaxis":"y"},{"marker":{"color":["#ff7f0e","#ff7f0e","#d62728","#d62728"]},"name":"002180 \u7eb3\u601d\u8fbe (\u56de\u64a4)","showlegend":false,"x":["(5,30)","(5,30)","(5,30)","(5,20)"],"y":[-79.17133218040875,-52.13978437799671,-95.7935400914641,-61.86089447111443],"type":"bar","xaxis":"x2","yaxis":"y2"},{"marker":{"color":[]},"showlegend":false,"x":[],"y":[],"type":"bar","xaxis":"x","yaxis":"y"},{"marker":{"color":[]},"showlegend":false,"x":[],"y":[],"type":"bar","xaxis":"x2","yaxis":"y2"},{"marker":{"color":["#1f77b4","#1f77b4","#2ca02c","#2ca02c"]},"showlegend":false,"x":["(10,60)","(10,60)","(10,30)","(10,60)"],"y":[86.88577999999892,186.43547499999968,212.4892349999996,200.21277499999934],"type":"bar","xaxis":"x","yaxis":"y"},{"marker":{"color":["#ff7f0e","#ff7f0e","#d62728","#d62728"]},"showlegend":false,"x":["(10,60)","(10,60)","(10,30)","(10,60)"],"y":[-114.31363626534564,-305.67632048287174,-134.0586248894661,-305.2648610115445],"type":"bar","xaxis":"x2","yaxis":"y2"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"xaxis":{"anchor":"y","domain":[0.0,0.45]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"\u6536\u76ca %"}},"xaxis2":{"anchor":"y2","domain":[0.55,1.0]},"yaxis2":{"anchor":"x2","domain":[0.0,1.0],"title":{"text":"\u6700\u5927\u56de\u64a4 %"}},"annotations":[{"font":{"size":16},"showarrow":false,"text":"\u52a0 5% \u6b62\u635f\u540e\u7684\u6536\u76ca\u53d8\u5316","x":0.225,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"\u52a0 5% \u6b62\u635f\u540e\u7684\u6700\u5927\u56de\u64a4\u53d8\u5316","x":0.775,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"}],"title":{"text":"\u6b62\u635f\u7684\u5f71\u54cd\uff08\u84dd\u002f\u6a59=\u65e0\u6b62\u635f\uff0c\u7eff\u002f\u7ea2=\u6709\u6b62\u635f\uff09"},"height":450,"barmode":"group"},                        {"responsive": true}                    )                };            </script>        </div></div>
+
+<h2>🧮 完整回测数据</h2>
+<div class="card">
+    <h3>纯双均线（6 参数 × 3 只股 = 18 次）</h3>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>stock</th>
+      <th>fast</th>
+      <th>slow</th>
+      <th>trend</th>
+      <th>max_dd</th>
+      <th>sharpe</th>
+      <th>total_return</th>
+      <th>trade_count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>20</td>
+      <td>MA200</td>
+      <td>-0.088651</td>
+      <td>-0.687279</td>
+      <td>-0.070054</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>20</td>
+      <td>纯</td>
+      <td>-0.195654</td>
+      <td>-0.462887</td>
+      <td>-0.128908</td>
+      <td>81</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>30</td>
+      <td>MA200</td>
+      <td>-0.080860</td>
+      <td>-0.544503</td>
+      <td>-0.062139</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>30</td>
+      <td>纯</td>
+      <td>-0.257610</td>
+      <td>-0.754514</td>
+      <td>-0.211015</td>
+      <td>83</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>60</td>
+      <td>MA200</td>
+      <td>-0.084653</td>
+      <td>-0.013820</td>
+      <td>-0.002688</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>60</td>
+      <td>纯</td>
+      <td>-0.150228</td>
+      <td>-0.389305</td>
+      <td>-0.108325</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>20</td>
+      <td>MA200</td>
+      <td>-0.077625</td>
+      <td>-0.420487</td>
+      <td>-0.050211</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>20</td>
+      <td>纯</td>
+      <td>-0.232039</td>
+      <td>-0.690068</td>
+      <td>-0.189017</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>30</td>
+      <td>MA200</td>
+      <td>-0.088693</td>
+      <td>-0.221095</td>
+      <td>-0.045912</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>30</td>
+      <td>纯</td>
+      <td>-0.311372</td>
+      <td>-0.926232</td>
+      <td>-0.255977</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>60</td>
+      <td>MA200</td>
+      <td>-0.057112</td>
+      <td>0.067933</td>
+      <td>0.011790</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>60</td>
+      <td>纯</td>
+      <td>-0.103880</td>
+      <td>-0.072314</td>
+      <td>-0.020114</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>20</td>
+      <td>MA200</td>
+      <td>-0.936240</td>
+      <td>-0.586640</td>
+      <td>-0.548281</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>20</td>
+      <td>纯</td>
+      <td>-1.390936</td>
+      <td>-0.264734</td>
+      <td>-0.443595</td>
+      <td>81</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>30</td>
+      <td>MA200</td>
+      <td>-0.521398</td>
+      <td>-0.179936</td>
+      <td>-0.151739</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>30</td>
+      <td>纯</td>
+      <td>-0.791713</td>
+      <td>0.321999</td>
+      <td>0.522766</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>60</td>
+      <td>MA200</td>
+      <td>-0.428279</td>
+      <td>-1.203544</td>
+      <td>-0.428279</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>60</td>
+      <td>纯</td>
+      <td>-1.540878</td>
+      <td>-0.532712</td>
+      <td>-0.834186</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>20</td>
+      <td>MA200</td>
+      <td>-0.393570</td>
+      <td>-0.666263</td>
+      <td>-0.377493</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>20</td>
+      <td>纯</td>
+      <td>-1.385385</td>
+      <td>-0.588690</td>
+      <td>-1.003102</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>30</td>
+      <td>MA200</td>
+      <td>-0.813347</td>
+      <td>-1.080422</td>
+      <td>-0.750112</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>30</td>
+      <td>纯</td>
+      <td>-1.457734</td>
+      <td>-0.249805</td>
+      <td>-0.426223</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>60</td>
+      <td>MA200</td>
+      <td>-0.699307</td>
+      <td>-1.100620</td>
+      <td>-0.699307</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>60</td>
+      <td>纯</td>
+      <td>-2.426128</td>
+      <td>-1.315120</td>
+      <td>-2.037196</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>20</td>
+      <td>MA200</td>
+      <td>-0.833616</td>
+      <td>0.020971</td>
+      <td>0.034634</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>20</td>
+      <td>纯</td>
+      <td>-3.086399</td>
+      <td>-0.619447</td>
+      <td>-2.931670</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>30</td>
+      <td>MA200</td>
+      <td>-2.731305</td>
+      <td>-0.252942</td>
+      <td>-0.880045</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>30</td>
+      <td>纯</td>
+      <td>-3.086057</td>
+      <td>-0.594160</td>
+      <td>-2.817587</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>60</td>
+      <td>MA200</td>
+      <td>-2.847980</td>
+      <td>-0.098417</td>
+      <td>-0.403196</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>60</td>
+      <td>纯</td>
+      <td>-2.889797</td>
+      <td>-0.300018</td>
+      <td>-1.389130</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>20</td>
+      <td>MA200</td>
+      <td>-3.053626</td>
+      <td>-0.407415</td>
+      <td>-1.408360</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>20</td>
+      <td>纯</td>
+      <td>-5.115803</td>
+      <td>-0.634143</td>
+      <td>-3.293112</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>30</td>
+      <td>MA200</td>
+      <td>-1.909013</td>
+      <td>-0.000142</td>
+      <td>-0.000439</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>30</td>
+      <td>纯</td>
+      <td>-2.947643</td>
+      <td>-0.262088</td>
+      <td>-1.376570</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>60</td>
+      <td>MA200</td>
+      <td>-1.143136</td>
+      <td>0.358658</td>
+      <td>0.868858</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>60</td>
+      <td>纯</td>
+      <td>-3.056763</td>
+      <td>0.352625</td>
+      <td>1.864355</td>
+      <td>13</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h3>双均线 + 5% 止损（72 次中的 24 次带止损样本）</h3>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>stock</th>
+      <th>fast</th>
+      <th>slow</th>
+      <th>mode</th>
+      <th>max_dd</th>
+      <th>sharpe</th>
+      <th>total_return</th>
+      <th>trade_count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>20</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.088724</td>
+      <td>-0.732360</td>
+      <td>-0.072553</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>20</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-0.239022</td>
+      <td>-0.625875</td>
+      <td>-0.172286</td>
+      <td>87</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>30</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.068870</td>
+      <td>-0.550014</td>
+      <td>-0.056640</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>30</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-0.259048</td>
+      <td>-0.769532</td>
+      <td>-0.216150</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>60</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.066405</td>
+      <td>-0.116268</td>
+      <td>-0.015255</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>5</td>
+      <td>60</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-0.178289</td>
+      <td>-0.494958</td>
+      <td>-0.118893</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>20</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.150123</td>
+      <td>-0.378294</td>
+      <td>-0.073326</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>20</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-0.245532</td>
+      <td>-0.702162</td>
+      <td>-0.194719</td>
+      <td>78</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>30</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.098124</td>
+      <td>-0.708707</td>
+      <td>-0.086400</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>30</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-0.338654</td>
+      <td>-1.333827</td>
+      <td>-0.299963</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>60</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.051626</td>
+      <td>-0.450925</td>
+      <td>-0.048192</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>TCL科技</td>
+      <td>10</td>
+      <td>60</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-0.139721</td>
+      <td>-0.424854</td>
+      <td>-0.102213</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>20</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.618609</td>
+      <td>0.218521</td>
+      <td>0.282419</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>20</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-1.274769</td>
+      <td>-0.033690</td>
+      <td>-0.059848</td>
+      <td>86</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>30</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.525532</td>
+      <td>-0.307864</td>
+      <td>-0.217220</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>30</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-0.957935</td>
+      <td>0.397219</td>
+      <td>0.680719</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>60</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.388891</td>
+      <td>-1.121701</td>
+      <td>-0.388791</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>5</td>
+      <td>60</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-1.374247</td>
+      <td>-0.452650</td>
+      <td>-0.693728</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>20</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.359719</td>
+      <td>0.164502</td>
+      <td>0.165763</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>20</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-1.353568</td>
+      <td>-0.417090</td>
+      <td>-0.870201</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>30</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.381382</td>
+      <td>-1.034421</td>
+      <td>-0.347233</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>30</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-1.251156</td>
+      <td>-0.124452</td>
+      <td>-0.194977</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>60</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.419991</td>
+      <td>-1.025726</td>
+      <td>-0.419891</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>纳思达</td>
+      <td>10</td>
+      <td>60</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-1.810474</td>
+      <td>-1.075895</td>
+      <td>-1.446383</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>20</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-0.580906</td>
+      <td>0.189829</td>
+      <td>0.289557</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>20</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-3.453638</td>
+      <td>-0.515620</td>
+      <td>-2.716996</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>30</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-1.461577</td>
+      <td>-0.532399</td>
+      <td>-0.915472</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>30</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-3.114675</td>
+      <td>-0.803241</td>
+      <td>-2.900602</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>60</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-1.413479</td>
+      <td>0.124773</td>
+      <td>0.306830</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>5</td>
+      <td>60</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-1.896387</td>
+      <td>-0.202724</td>
+      <td>-0.661110</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>20</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-2.407280</td>
+      <td>0.153551</td>
+      <td>0.517669</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>20</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-4.211048</td>
+      <td>-0.440204</td>
+      <td>-2.302515</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>30</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-1.340586</td>
+      <td>0.611275</td>
+      <td>2.124892</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>30</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-2.413868</td>
+      <td>0.037928</td>
+      <td>0.214431</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>60</td>
+      <td>+ MA200 + 5%止损</td>
+      <td>-1.145720</td>
+      <td>0.271956</td>
+      <td>0.638927</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>西部超导</td>
+      <td>10</td>
+      <td>60</td>
+      <td>纯双均线 + 5%止损</td>
+      <td>-3.052649</td>
+      <td>0.387029</td>
+      <td>2.002128</td>
+      <td>15</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>🎯 给接收方的使用建议</h2>
+<div class="card">
+    <ol>
+        <li><strong>立刻能跑</strong>：解压 quant-poc-release.zip → <code>pip install -r requirements.txt</code> → <code>python backtest_3stocks.py</code></li>
+        <li><strong>看可视化</strong>：<code>streamlit run dashboard.py</code> → 浏览器打开 <code>http://localhost:8501</code></li>
+        <li><strong>接 LLM</strong>：跟 Claude Desktop 或 Claude Code 配置 MCP（见 README.md §MCP 集成）</li>
+        <li><strong>接富途</strong>：参考 <code>docs/FUTU_INTEGRATION.md</code>（默认模拟盘，不会真下单）</li>
+        <li><strong>谨慎实盘</strong>：跑 30 天模拟盘验证 → 小仓位起步 → 持续监控</li>
+    </ol>
+</div>
+
+<div class="footer">
+    <p>📁 报告文件：quant-poc-release.zip → release/quant-dashboard-static.html</p>
+    <p>📚 完整文档：见 quant-poc 仓库的 README.md 和 docs/ 目录</p>
+    <p>🔗 项目主页：https://github.com/[your-username]/quant-poc</p>
+    <p>📧 反馈：[your-email]</p>
+    <p>⚠️ 本项目使用 MIT 协议，作者不对任何基于本项目做出的投资决策负责。</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+# Web 框架
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.6
+
+# 回测
+vnpy>=4.4
+
+# MCP（让 LLM 调用回测工具）
+# pip install "mcp>=1.27,<2"
+mcp>=1.27,<2
+
+# 数据
+tushare>=1.4
+akshare>=1.12
+
+# 富途实盘（可选，broker_futu.py 用到）
+futu-api>=10.4.6408
+
+# Dashboard
+streamlit>=1.30
+plotly>=5.18
+
+# HTTP 客户端（push_demo_alerts.py）
+requests>=2.31
+
+# 推送 / MCP（可选）
+# pip install tradingview-mcp-server  # 见 README "下一步"

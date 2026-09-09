@@ -1,0 +1,28 @@
+{
+  "id": "quant-research",
+  "name": "A 股量化研究",
+  "description": "A 股量化研究工具集：回测、参数扫描、5 种策略对比、walk-forward 过拟合检测、stop loss 估算、Pine Script 生成。10 个工具全部基于 vnpy + tushare 真实 A 股日线（不复权到 2018）。",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "quant_run_backtest",
+      "quant_scan_ma_params",
+      "quant_scan_multi_stocks",
+      "quant_run_strategy",
+      "quant_scan_strategy_params",
+      "quant_simulate_stop_loss",
+      "quant_run_walk_forward",
+      "quant_generate_pine_script",
+      "quant_get_top_results",
+      "quant_validate_strategy"
+    ]
+  }
+}

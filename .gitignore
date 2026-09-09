@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# 应用数据
+data/quant-poc.db
+data/quant-poc.db-journal
+data/quant-poc.db-shm
+data/quant-poc.db-wal
+data/quant-poc.db-*
+data/cache/
+# paper engine state（接收方运行时会自己产生）
+data/paper_state.json
+
+# 日志
+*.log
+logs/
+
+# 根目录截图（自己看，不入库；docs/screenshots/ 留着）
+/*.png
+*.png
+!docs/screenshots/.gitkeep
+!docs/screenshots/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 打包产物
+release/
+
+# OpenClaw
+.openclaw-plugin/node_modules/
+.openclaw-plugin/dist/
+.openclaw-agents/
+
+# Herms (本地 skill / 备份)
+.hermes/
+

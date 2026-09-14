@@ -1,0 +1,32 @@
+[
+  {
+    "round": "Round 1",
+    "best_params": "(10,30) 双均线 + 5% 止损",
+    "train_sharpe": 0.6497232097235349,
+    "train_return": 173.1727549999995,
+    "test_return": 374.32538000000017,
+    "test_sharpe": 0.5342053464747006,
+    "test_dd": -349.6500638554176,
+    "test_trades": 14
+  },
+  {
+    "round": "Round 2",
+    "best_params": "(10,30) 双均线 + 5% 止损",
+    "train_sharpe": 0.9414650447277338,
+    "train_return": 126.62275499999876,
+    "test_return": 345.6979250000014,
+    "test_sharpe": 0.4393526471035681,
+    "test_dd": -350.58525053914167,
+    "test_trades": 16
+  },
+  {
+    "round": "Round 3",
+    "best_params": "(5,30) 双均线 + 5% 止损",
+    "train_sharpe": -0.09449523806758085,
+    "train_return": -32.354584999999545,
+    "test_return": 389.22733499999975,
+    "test_sharpe": 0.654580637011128,
+    "test_dd": -321.18315723092184,
+    "test_trades": 14
+  }
+]

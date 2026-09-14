@@ -1,0 +1,87 @@
+[
+  {
+    "code": "688122.SH",
+    "pe": 52.4776,
+    "pb": 4.6371,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3350319.8265,
+    "sharpe": 0.7087971165885112,
+    "score": 40,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20
+    }
+  },
+  {
+    "code": "000100.SZ",
+    "pe": 15.8085,
+    "pb": 1.6275,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10183137.0704,
+    "sharpe": -0.08898852119205439,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0
+    }
+  },
+  {
+    "code": "688515.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "sharpe": 0.1331633045634747,
+    "score": 28,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10
+    }
+  },
+  {
+    "code": "002180.SZ",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "sharpe": -0.7975308081893764,
+    "score": 18,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0
+    }
+  },
+  {
+    "code": "00700.HK",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "sharpe": 0.0,
+    "score": 18,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0
+    }
+  }
+]

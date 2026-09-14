@@ -1,0 +1,134 @@
+{
+  "纳思达": {
+    "code": "002180.SZ",
+    "consistent": true,
+    "rounds": [
+      {
+        "round": "R1 18M/24M",
+        "best_strategy": "MACD柱状图",
+        "train_sharpe": 1.194106180114791,
+        "test_return": 12.753684999999848,
+        "test_sharpe": 0.26926769535757517,
+        "test_dd": -25.421089369322946,
+        "test_trades": 22
+      },
+      {
+        "round": "R2 12M/30M",
+        "best_strategy": "MACD柱状图",
+        "train_sharpe": 0.9529138363672239,
+        "test_return": 24.73658500000031,
+        "test_sharpe": 0.29441244936889965,
+        "test_dd": -48.950911994731335,
+        "test_trades": 30
+      },
+      {
+        "round": "R3 24M/18M",
+        "best_strategy": "MACD柱状图",
+        "train_sharpe": 0.7485092125878687,
+        "test_return": 10.005109999999817,
+        "test_sharpe": 0.28245002003958675,
+        "test_dd": -25.428067898149788,
+        "test_trades": 14
+      }
+    ]
+  },
+  "TCL科技": {
+    "code": "000100.SZ",
+    "consistent": false,
+    "rounds": [
+      {
+        "round": "R1 18M/24M",
+        "best_strategy": "RSI背离",
+        "train_sharpe": 0.2539683332444555,
+        "test_return": -1.3974000000005482,
+        "test_sharpe": -0.18725061837992438,
+        "test_dd": -5.149900733088419,
+        "test_trades": 7
+      },
+      {
+        "round": "R2 12M/30M",
+        "best_strategy": "RSI背离",
+        "train_sharpe": 1.7122172320394642,
+        "test_return": 3.8299050000012436,
+        "test_sharpe": 0.3711175614754414,
+        "test_dd": -6.695333312509182,
+        "test_trades": 11
+      },
+      {
+        "round": "R3 24M/18M",
+        "best_strategy": "RSI背离",
+        "train_sharpe": 0.5677148672465494,
+        "test_return": 0.6665049999998729,
+        "test_sharpe": 0.12880092566557244,
+        "test_dd": -2.4992086243394986,
+        "test_trades": 5
+      }
+    ]
+  },
+  "西部超导": {
+    "code": "688122.SH",
+    "consistent": true,
+    "rounds": [
+      {
+        "round": "R1 18M/24M",
+        "best_strategy": "ATR跟踪止损",
+        "train_sharpe": 0.43813907153683757,
+        "test_return": 37.076874999999454,
+        "test_sharpe": 0.2108253341976909,
+        "test_dd": -153.46171796195236,
+        "test_trades": 16
+      },
+      {
+        "round": "R2 12M/30M",
+        "best_strategy": "ATR跟踪止损",
+        "train_sharpe": 0.3593004877263253,
+        "test_return": 44.97733000000004,
+        "test_sharpe": 0.21909504215929518,
+        "test_dd": -153.34285541301045,
+        "test_trades": 22
+      },
+      {
+        "round": "R3 24M/18M",
+        "best_strategy": "MACD柱状图",
+        "train_sharpe": 0.45747598812425916,
+        "test_return": 10.710295000000425,
+        "test_sharpe": 0.05638833724805125,
+        "test_dd": -158.394288652203,
+        "test_trades": 25
+      }
+    ]
+  },
+  "奔图科技": {
+    "code": "688515.SH",
+    "consistent": false,
+    "rounds": [
+      {
+        "round": "R1 18M/24M",
+        "best_strategy": "ATR跟踪止损",
+        "train_sharpe": 0.4681821254128722,
+        "test_return": 217.8723299999996,
+        "test_sharpe": 0.41393802725583684,
+        "test_dd": -408.2603722826403,
+        "test_trades": 14
+      },
+      {
+        "round": "R2 12M/30M",
+        "best_strategy": "ATR跟踪止损",
+        "train_sharpe": 0.5742981880169769,
+        "test_return": 218.48609999999934,
+        "test_sharpe": 0.3576497653682353,
+        "test_dd": -408.23681079772587,
+        "test_trades": 16
+      },
+      {
+        "round": "R3 24M/18M",
+        "best_strategy": "Keltner突破",
+        "train_sharpe": -0.011194446874812804,
+        "test_return": -73.40885500000005,
+        "test_sharpe": -0.17282172615335656,
+        "test_dd": -461.21525519469486,
+        "test_trades": 12
+      }
+    ]
+  }
+}

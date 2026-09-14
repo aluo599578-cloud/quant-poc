@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e27;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1f4e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0e27;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7b2cbf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- 网格背景（量化感） -->
+  <g stroke="#00d4ff" stroke-width="0.5" opacity="0.15">
+    <line x1="0" y1="160" x2="1280" y2="160"/>
+    <line x1="0" y1="320" x2="1280" y2="320"/>
+    <line x1="0" y1="480" x2="1280" y2="480"/>
+    <line x1="320" y1="0" x2="320" y2="640"/>
+    <line x1="640" y1="0" x2="640" y2="640"/>
+    <line x1="960" y1="0" x2="960" y2="640"/>
+  </g>
+
+  <!-- 装饰：股票折线 -->
+  <path d="M 80 480 L 200 440 L 320 460 L 440 400 L 560 380 L 680 300 L 800 320 L 920 240 L 1040 220 L 1160 160"
+        stroke="url(#accent)" stroke-width="4" fill="none" opacity="0.9"/>
+  <circle cx="1160" cy="160" r="8" fill="#00d4ff"/>
+
+  <!-- 装饰：散点（数据感） -->
+  <g fill="#00d4ff" opacity="0.4">
+    <circle cx="180" cy="100" r="2"/>
+    <circle cx="240" cy="120" r="2"/>
+    <circle cx="320" cy="90" r="2"/>
+    <circle cx="500" cy="140" r="2"/>
+    <circle cx="780" cy="110" r="2"/>
+    <circle cx="900" cy="130" r="2"/>
+    <circle cx="1080" cy="105" r="2"/>
+  </g>
+
+  <!-- 项目名 -->
+  <text x="80" y="200" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">
+    quant-poc
+  </text>
+
+  <!-- 副标题 -->
+  <text x="80" y="240" font-family="Arial, sans-serif" font-size="24" fill="#00d4ff">
+    A 股 / 港股 量化研究 PoC
+  </text>
+
+  <!-- Tagline -->
+  <text x="80" y="290" font-family="Arial, sans-serif" font-size="20" fill="#c5c9d6">
+    TradingView → Paper Engine → 12 Lean-style Strategies → 富途实盘
+  </text>
+
+  <!-- 架构流程（左侧 4 个盒子） -->
+  <g>
+    <!-- 1. TradingView -->
+    <rect x="80" y="340" width="220" height="80" rx="8" fill="#1a1f4e" stroke="#00d4ff" stroke-width="2"/>
+    <text x="190" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">
+      TradingView
+    </text>
+    <text x="190" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8892b0">
+      alert webhook
+    </text>
+
+    <!-- 箭头 -->
+    <path d="M 305 380 L 335 380" stroke="#00d4ff" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- 2. Paper Engine -->
+    <rect x="340" y="340" width="220" height="80" rx="8" fill="#1a1f4e" stroke="#7b2cbf" stroke-width="2"/>
+    <text x="450" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">
+      Paper Engine
+    </text>
+    <text x="450" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8892b0">
+      vnpy + SQLite
+    </text>
+
+    <!-- 箭头 -->
+    <path d="M 565 380 L 595 380" stroke="#00d4ff" stroke-width="2"/>
+
+    <!-- 3. 12 Strategies -->
+    <rect x="600" y="340" width="220" height="80" rx="8" fill="#1a1f4e" stroke="#00d4ff" stroke-width="2"/>
+    <text x="710" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">
+      12 Strategies
+    </text>
+    <text x="710" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8892b0">
+      Lean-style
+    </text>
+
+    <!-- 箭头 -->
+    <path d="M 825 380 L 855 380" stroke="#00d4ff" stroke-width="2"/>
+
+    <!-- 4. 富途 OpenD -->
+    <rect x="860" y="340" width="220" height="80" rx="8" fill="#1a1f4e" stroke="#7b2cbf" stroke-width="2"/>
+    <text x="970" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">
+      富途 OpenD
+    </text>
+    <text x="970" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8892b0">
+      HK 模拟实盘
+    </text>
+  </g>
+
+  <!-- 关键数据 -->
+  <g transform="translate(80, 470)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#8892b0">最佳 Sharpe</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#00d4ff">+2.28</text>
+    <text x="120" y="0" font-family="Arial, sans-serif" font-size="14" fill="#8892b0">策略</text>
+    <text x="120" y="30" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#7b2cbf">12</text>
+    <text x="220" y="0" font-family="Arial, sans-serif" font-size="14" fill="#8892b0">回测</text>
+    <text x="220" y="30" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#00d4ff">100+</text>
+    <text x="340" y="0" font-family="Arial, sans-serif" font-size="14" fill="#8892b0">A股+港股</text>
+    <text x="340" y="30" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#7b2cbf">4+4</text>
+    <text x="500" y="0" font-family="Arial, sans-serif" font-size="14" fill="#8892b0">License</text>
+    <text x="500" y="30" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#00d4ff">MIT</text>
+    <text x="640" y="0" font-family="Arial, sans-serif" font-size="14" fill="#8892b0">Tech</text>
+    <text x="640" y="30" font-family="Arial, sans-serif" font-size="20" fill="#c5c9d6">vnpy + tushare + futu</text>
+  </g>
+
+  <!-- 右上角标签 -->
+  <g transform="translate(1050, 90)">
+    <rect x="0" y="0" width="180" height="30" rx="15" fill="#00d4ff" opacity="0.2"/>
+    <text x="90" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#00d4ff">v1.0.0 Public</text>
+  </g>
+</svg>

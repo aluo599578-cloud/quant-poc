@@ -3,6 +3,12 @@
 > 一个端到端可跑的 PoC：把 TradingView 的 alert 通过 webhook 推到自己服务器，本地模拟撮合，Streamlit 仪表盘实时可视化。  
 > 验证"A 股能不能跑通这条链路"的技术可行性，**不接真实券商、不产生 alpha**。
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![vnpy](https://img.shields.io/badge/vnpy-4.4.0-green.svg)](https://github.com/vnpy/vnpy)
+[![tushare](https://img.shields.io/badge/tushare-pro-blue.svg)](https://tushare.pro/)
+[![Futu OpenD](https://img.shields.io/badge/Futu%20OpenD-supported-orange.svg)](https://openapi.futunn.com/)
+
 ![Architecture](docs/screenshots/architecture.png)
 
 ## 🚀 立刻能用
@@ -11,8 +17,10 @@
 |---|---|
 | 看回测结果，**不想装任何东西** | 直接看 [`release/quant-dashboard-static.html`](release/quant-dashboard-static.html) — 双击浏览器打开 |
 | 自己跑回测 | 跳到下方 [⚡ 5 分钟跑起来](#⚡-5-分钟跑起来) |
+| 用 **Lean 风格** 写策略（推荐）| [`LEAN_INSPIRED.md`](LEAN_INSPIRED.md) — 6 个策略 + 30 次扫描 |
 | 接入 Claude Desktop / Claude Code | 看 [`release/INSTALL_MCP.md`](release/INSTALL_MCP.md) |
 | 看发布清单 | [`release/RELEASE_CHECKLIST.md`](release/RELEASE_CHECKLIST.md) |
+| Lean 迁移过程记录 | [`LEAN_MIGRATION.md`](LEAN_MIGRATION.md) |
 
 ## ⚠️ 重要声明
 

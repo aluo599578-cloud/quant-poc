@@ -14,7 +14,7 @@ ZIP = ROOT / "release" / "quant-poc-release.zip"
 ZIP.parent.mkdir(exist_ok=True)
 
 # 必须打的目录（递归）
-INCLUDE_DIRS = ["app", "docs", "tests", "tools"]
+INCLUDE_DIRS = ["app", "docs", "tests", "tools", "strategies"]
 
 # release 目录里的关键发布产物（不递归整个目录避免把上次打包的 zip 也打包进来）
 INCLUDE_RELEASE = [
@@ -32,8 +32,11 @@ INCLUDE_RELEASE = [
 INCLUDE_FILES = [
     "quant_core.py",
     "mcp_quant_server.py",
+    "lean_style_indicators.py",
     "backtest_3stocks.py",
+    "backtest_3stocks_lean.py",
     "backtest_scan.py",
+    "backtest_scan_lean.py",
     "dashboard.py",
     "dashboard_demo.py",
     "dashboard_demo_v2.py",
@@ -45,6 +48,8 @@ INCLUDE_FILES = [
     "push_demo_alerts.py",
     "README.md", "LICENSE", "CHANGELOG.md",
     "backtest_results.md",
+    "LEAN_INSPIRED.md",
+    "LEAN_MIGRATION.md",
     "requirements.txt",
     "package_for_release.sh",
     ".gitignore",

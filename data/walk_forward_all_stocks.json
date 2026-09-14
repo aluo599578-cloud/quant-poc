@@ -1,0 +1,142 @@
+{
+  "纳思达": {
+    "code": "002180.SZ",
+    "avg_test_return": -19.519924999999997,
+    "avg_test_sharpe": -0.5255472346192887,
+    "consistent": false,
+    "rounds": [
+      {
+        "round": "R1 18M/24M",
+        "best_params": "(5,20) 双均线 + 5% 止损",
+        "train_sharpe": 0.08911370370779399,
+        "test_return": -26.72231000000025,
+        "test_sharpe": -0.7816914870434417,
+        "test_dd": -28.04711499999976,
+        "test_trades": 22
+      },
+      {
+        "round": "R2 12M/30M",
+        "best_params": "(5,30) 纯双均线",
+        "train_sharpe": 0.020792029377030192,
+        "test_return": -16.18510999999989,
+        "test_sharpe": -0.20494049451169938,
+        "test_dd": -65.75378262304275,
+        "test_trades": 20
+      },
+      {
+        "round": "R3 24M/18M",
+        "best_params": "(5,30) 双均线 + 5% 止损",
+        "train_sharpe": -0.13904856451120343,
+        "test_return": -15.65235499999984,
+        "test_sharpe": -0.5900097223027249,
+        "test_dd": -25.71851062617572,
+        "test_trades": 10
+      }
+    ]
+  },
+  "TCL科技": {
+    "code": "000100.SZ",
+    "avg_test_return": -0.2984933333335012,
+    "avg_test_sharpe": -0.14306611617359485,
+    "consistent": false,
+    "rounds": [
+      {
+        "round": "R1 18M/24M",
+        "best_params": "(10,60) 纯双均线",
+        "train_sharpe": -0.1738261911889024,
+        "test_return": 0.7444099999998066,
+        "test_sharpe": 0.057148166121963516,
+        "test_dd": -7.9582221016088095,
+        "test_trades": 8
+      },
+      {
+        "round": "R2 12M/30M",
+        "best_params": "(10,60) 纯双均线",
+        "train_sharpe": -0.38771761605286975,
+        "test_return": 1.8153099999995703,
+        "test_sharpe": 0.10394991478813874,
+        "test_dd": -7.957370671934888,
+        "test_trades": 12
+      },
+      {
+        "round": "R3 24M/18M",
+        "best_params": "(5,60) 双均线 + 5% 止损",
+        "train_sharpe": 0.0055100533618370655,
+        "test_return": -3.4551999999998806,
+        "test_sharpe": -0.5902964294308868,
+        "test_dd": -5.684072372283236,
+        "test_trades": 8
+      }
+    ]
+  },
+  "西部超导": {
+    "code": "688122.SH",
+    "avg_test_return": 22.482831666666613,
+    "avg_test_sharpe": 0.09465086345428743,
+    "consistent": false,
+    "rounds": [
+      {
+        "round": "R1 18M/24M",
+        "best_params": "(5,20) 双均线 + 5% 止损",
+        "train_sharpe": -0.2808527733281044,
+        "test_return": 32.3907999999995,
+        "test_sharpe": 0.15422462671025486,
+        "test_dd": -221.28427502306621,
+        "test_trades": 17
+      },
+      {
+        "round": "R2 12M/30M",
+        "best_params": "(5,20) 双均线 + 5% 止损",
+        "train_sharpe": -0.36376645881780145,
+        "test_return": 42.1598599999995,
+        "test_sharpe": 0.17137336214891527,
+        "test_dd": -221.07347057961292,
+        "test_trades": 21
+      },
+      {
+        "round": "R3 24M/18M",
+        "best_params": "(5,20) 双均线 + 5% 止损",
+        "train_sharpe": -0.32698648473997904,
+        "test_return": -7.102164999999161,
+        "test_sharpe": -0.041645398496307814,
+        "test_dd": -222.14059886016605,
+        "test_trades": 11
+      }
+    ]
+  },
+  "奔图科技": {
+    "code": "688515.SH",
+    "avg_test_return": 369.75021333333376,
+    "avg_test_sharpe": 0.5427128768631323,
+    "consistent": true,
+    "rounds": [
+      {
+        "round": "R1 18M/24M",
+        "best_params": "(10,30) 双均线 + 5% 止损",
+        "train_sharpe": 0.6497232097235349,
+        "test_return": 374.32538000000017,
+        "test_sharpe": 0.5342053464747006,
+        "test_dd": -349.6500638554176,
+        "test_trades": 14
+      },
+      {
+        "round": "R2 12M/30M",
+        "best_params": "(10,30) 双均线 + 5% 止损",
+        "train_sharpe": 0.9414650447277338,
+        "test_return": 345.6979250000014,
+        "test_sharpe": 0.4393526471035681,
+        "test_dd": -350.58525053914167,
+        "test_trades": 16
+      },
+      {
+        "round": "R3 24M/18M",
+        "best_params": "(5,30) 双均线 + 5% 止损",
+        "train_sharpe": -0.09449523806758085,
+        "test_return": 389.22733499999975,
+        "test_sharpe": 0.654580637011128,
+        "test_dd": -321.18315723092184,
+        "test_trades": 14
+      }
+    ]
+  }
+}

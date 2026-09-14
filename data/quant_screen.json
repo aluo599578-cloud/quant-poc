@@ -1,19 +1,1858 @@
 [
   {
-    "code": "688122.SH",
-    "pe": 52.4776,
-    "pb": 4.6371,
+    "code": "600362.SH",
+    "pe": 13.6806,
+    "pb": 1.8089,
     "roe": null,
     "revenue_growth": null,
     "profit_growth": null,
-    "market_cap": 3350319.8265,
-    "sharpe": 0.7087971165885112,
-    "score": 40,
+    "market_cap": 15852375.1932,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 80.86,
+      "p_change_max": 103.61,
+      "ann_date": "20260709"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.0298660000000149,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5616384548962589,
+    "score": 68,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000975.SZ",
+    "pe": 18.562,
+    "pb": 4.4217,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7039447.0686,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 47.27,
+      "p_change_max": 55.41,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.7976259999999995,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.6377034101581777,
+    "score": 68,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601138.SH",
+    "pe": 27.1017,
+    "pb": 7.2341,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 127141099.3661,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 93.0,
+      "p_change_max": 101.0,
+      "ann_date": "20260710"
+    },
+    "money_flow": {
+      "net_inflow_10d": 5.602444999999995,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.9142745481018353,
+    "score": 66,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000408.SZ",
+    "pe": 20.0311,
+    "pb": 6.6281,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11398166.022,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 97.2,
+      "p_change_max": 108.31,
+      "ann_date": "20260707"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.7410880000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.6301929083426606,
+    "score": 66,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601600.SH",
+    "pe": 9.2671,
+    "pb": 1.9164,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 16194293.0016,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 58.0,
+      "p_change_max": 73.0,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4240240000000049,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.8341482436765785,
+    "score": 65,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601899.SH",
+    "pe": 12.6792,
+    "pb": 4.2473,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 85781645.2996,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 68.0,
+      "p_change_max": 68.0,
+      "ann_date": "20260710"
+    },
+    "money_flow": {
+      "net_inflow_10d": 8.013260999999988,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3136478766157139,
+    "score": 63,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601225.SH",
+    "pe": 12.3809,
+    "pb": 2.4971,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 25255475.0,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 47.0,
+      "p_change_max": 53.0,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.05227399999999616,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3725074405686438,
+    "score": 63,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601088.SH",
+    "pe": 19.0894,
+    "pb": 2.2852,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 103046502.3593,
+    "forecast": {
+      "type": "续盈",
+      "p_change_min": -4.7,
+      "p_change_max": 8.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": 4.416418000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": 1.0780081823022254,
+    "score": 61,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 25,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000807.SZ",
+    "pe": 8.6267,
+    "pb": 2.48,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9464055.7446,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 170.98,
+      "p_change_max": 181.82,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.1539679999999992,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.030322912771094796,
+    "score": 61,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "002493.SZ",
+    "pe": 25.3611,
+    "pb": 2.8509,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13585641.528,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 730.45,
+      "p_change_max": 763.67,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.7402200000000012,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4519145958063704,
+    "score": 61,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600989.SH",
+    "pe": 11.4437,
+    "pb": 3.1841,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17578063.92,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 62.65,
+      "p_change_max": 78.4,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.4037220000000032,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4920262737553666,
+    "score": 60,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300750.SZ",
+    "pe": 17.9905,
+    "pb": 4.0311,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 152919388.4904,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.16768600000003353,
+      "days_analyzed": 6
+    },
+    "sharpe": 1.0827853052157796,
+    "score": 58,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 25,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300502.SZ",
+    "pe": 44.9562,
+    "pb": 24.2736,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 58977058.41,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 77.56,
+      "p_change_max": 102.93,
+      "ann_date": "20260720"
+    },
+    "money_flow": {
+      "net_inflow_10d": 19.897055000000027,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.8226464368629642,
+    "score": 58,
     "breakdown": {
       "valuation": 12,
       "profitability": 5,
       "growth": 3,
-      "technical": 20
+      "technical": 20,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600999.SH",
+    "pe": 8.5509,
+    "pb": 1.2092,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 15210225.3732,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 93.0,
+      "p_change_max": 112.0,
+      "ann_date": "20260708"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.7742350000000006,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.031162681024117758,
+    "score": 58,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002558.SZ",
+    "pe": 15.3481,
+    "pb": 2.8478,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4791316.802,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 157.38,
+      "p_change_max": 183.12,
+      "ann_date": "20260708"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.7927520000000019,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.03892887507883862,
+    "score": 58,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600918.SH",
+    "pe": 17.5898,
+    "pb": 0.9678,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4355087.55,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 146.31,
+      "p_change_max": 146.31,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.23691800000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.08608197974646042,
+    "score": 58,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002475.SZ",
+    "pe": 24.0811,
+    "pb": 4.6045,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 42860099.5952,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 15.0,
+      "p_change_max": 25.0,
+      "ann_date": "20260825"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.4464000000000117,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.6574786693166084,
+    "score": 56,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 8,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600919.SH",
+    "pe": 6.3832,
+    "pb": 0.8501,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 23067614.8965,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.8315469999999973,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.8177665367473759,
+    "score": 56,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601988.SH",
+    "pe": 8.5009,
+    "pb": 0.7696,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 211693554.5526,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.35000200000000475,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.7279405542293057,
+    "score": 56,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601169.SH",
+    "pe": 5.6461,
+    "pb": 0.4146,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11818928.2237,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.31255199999999894,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5707249371594038,
+    "score": 56,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601009.SH",
+    "pe": 6.6262,
+    "pb": 0.7834,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 15133006.2528,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.35817199999999866,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.6459427901550024,
+    "score": 56,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601658.SH",
+    "pe": 7.3118,
+    "pb": 0.6267,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 65571899.211,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.3119419999999984,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.652336790685724,
+    "score": 56,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "688036.SH",
+    "pe": 19.3242,
+    "pb": 2.8681,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6070195.8685,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 44.82,
+      "p_change_max": 44.82,
+      "ann_date": "20260720"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.2007710000000014,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4779065082452452,
+    "score": 56,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 8,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600674.SH",
+    "pe": 16.8189,
+    "pb": 1.7401,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7774997.846,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.35045300000000135,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.594544315097187,
+    "score": 56,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600030.SH",
+    "pe": 10.6064,
+    "pb": 1.4235,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 42060540.7947,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 69.59,
+      "p_change_max": 69.59,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.5082940000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.09297991236654769,
+    "score": 55,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688183.SH",
+    "pe": 51.0915,
+    "pb": 16.1095,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10490829.78,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 104.0,
+      "p_change_max": 114.0,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.36009400000000025,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.7828515491141913,
+    "score": 55,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601211.SH",
+    "pe": 9.4182,
+    "pb": 0.9198,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 30450392.456,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 27.0,
+      "p_change_max": 30.0,
+      "ann_date": "20260704"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.0542290000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.06781035332111446,
+    "score": 54,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 8,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600519.SH",
+    "pe": 19.5748,
+    "pb": 6.3444,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 159405405.3056,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.829316999999981,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5979127611021352,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601318.SH",
+    "pe": 6.2319,
+    "pb": 0.9657,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 99284201.086,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -10.045746000000008,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.8771972251000782,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600036.SH",
+    "pe": 6.8745,
+    "pb": 0.9107,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 104284061.556,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.087277000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5927706172911595,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603259.SH",
+    "pe": 21.1221,
+    "pb": 5.4925,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 45771421.8152,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.7675669999999926,
+      "days_analyzed": 6
+    },
+    "sharpe": 1.1031975676523835,
+    "score": 53,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 25,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601288.SH",
+    "pe": 8.1883,
+    "pb": 0.8535,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 243938174.6283,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.1646099999999977,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.7306107544507193,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600150.SH",
+    "pe": 21.3299,
+    "pb": 1.9633,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 29914344.6675,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 143.56,
+      "p_change_max": 191.21,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5386379999999888,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.16182859491825588,
+    "score": 53,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300274.SZ",
+    "pe": 15.9286,
+    "pb": 3.4898,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17497905.06,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.191654999999993,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.7178629374859276,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601939.SH",
+    "pe": 8.3224,
+    "pb": 0.8052,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 288283620.413,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.4165919999999983,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.874944855912829,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000630.SZ",
+    "pe": 20.8489,
+    "pb": 2.1737,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8273643.9155,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 84.13,
+      "p_change_max": 118.87,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.0405059999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.06403667880252337,
+    "score": 53,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600019.SH",
+    "pe": 12.6725,
+    "pb": 0.6168,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 12720737.4648,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.4736369999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5872976984215947,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000166.SZ",
+    "pe": 10.1499,
+    "pb": 0.9669,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11117735.358,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5847719999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.79458006718772,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002736.SZ",
+    "pe": 8.937,
+    "pb": 1.0508,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10221259.6138,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.20997800000000025,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.8873437540694663,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600011.SH",
+    "pe": 9.2984,
+    "pb": 1.6914,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10910174.913,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.16811600000000035,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.7982588624589236,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601878.SH",
+    "pe": 14.3414,
+    "pb": 1.0978,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4122328.635,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.2784690000000006,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5613000156569681,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601800.SH",
+    "pe": 7.7296,
+    "pb": 0.3306,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9630989.0622,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.021452000000000044,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.6110914915887723,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601607.SH",
+    "pe": 12.664,
+    "pb": 0.771,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6040921.3722,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.14787700000000023,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.9154960984753493,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600803.SH",
+    "pe": 13.498,
+    "pb": 2.5106,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5887042.0602,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5940700000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.6571185913165412,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000999.SZ",
+    "pe": 12.1342,
+    "pb": 1.7414,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3975816.3242,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.16027899999999973,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5786801926845796,
+    "score": 53,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000333.SZ",
+    "pe": 14.8286,
+    "pb": 3.1073,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 65806012.3416,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 4.691288,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.393410822576484,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601816.SH",
+    "pe": 17.2695,
+    "pb": 1.1234,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 23533251.7914,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.0711529999999998,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4050864185519841,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600926.SH",
+    "pe": 6.2898,
+    "pb": 0.8826,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 12693003.3775,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.6922440000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4486687277813666,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601766.SH",
+    "pe": 12.6329,
+    "pb": 0.9969,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17592403.6933,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.21128999999999795,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3660146602597591,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600050.SH",
+    "pe": 19.0293,
+    "pb": 0.7677,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13162323.0934,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.023011999999999533,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.31467216267186915,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601872.SH",
+    "pe": 14.888,
+    "pb": 3.4479,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 16149077.0,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 214.0,
+      "p_change_max": 248.0,
+      "ann_date": "20260706"
+    },
+    "money_flow": {
+      "net_inflow_10d": 4.415780999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": -1.0967075185292936,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "002648.SZ",
+    "pe": 10.4274,
+    "pb": 2.41,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9169453.5954,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 118.68,
+      "p_change_max": 155.13,
+      "ann_date": "20260623"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.0162000000000029,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.38081614332958796,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601998.SH",
+    "pe": 6.9186,
+    "pb": 0.6646,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 49635484.7716,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 2.0629619999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.41503696416736124,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "002532.SZ",
+    "pe": 8.8541,
+    "pb": 1.9057,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6119190.975,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 101.52,
+      "p_change_max": 101.52,
+      "ann_date": "20260706"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.5373839999999968,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.1143948625893107,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600346.SH",
+    "pe": 10.8248,
+    "pb": 1.6897,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 12156525.3546,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 136.06,
+      "p_change_max": 136.06,
+      "ann_date": "20260707"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.6702079999999987,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.32285810408877896,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600026.SH",
+    "pe": 16.9998,
+    "pb": 2.3726,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11412952.8212,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 141.0,
+      "p_change_max": 141.0,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": 4.508210000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.4521379432781854,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000617.SZ",
+    "pe": 17.2555,
+    "pb": 0.8161,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8735676.6581,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.12716499999999942,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4248567868586932,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600018.SH",
+    "pe": 9.1002,
+    "pb": 0.8716,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 12780698.3145,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 5.35,
+      "p_change_max": 5.35,
+      "ann_date": "20260721"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.32959699999999936,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.28571361638065695,
+    "score": 51,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 8,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688008.SH",
+    "pe": 76.2212,
+    "pb": 10.8892,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 23429447.448,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 63.9,
+      "p_change_max": 81.2,
+      "ann_date": "20260717"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.023070000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4271223671551729,
+    "score": 50,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "300408.SZ",
+    "pe": 74.9425,
+    "pb": 10.9657,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 24831192.5096,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 45.0,
+      "p_change_max": 65.0,
+      "ann_date": "20260721"
+    },
+    "money_flow": {
+      "net_inflow_10d": 7.636720000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.33993570978935106,
+    "score": 50,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "300308.SZ",
+    "pe": 53.3286,
+    "pb": 27.365,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 109074432.7566,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 23.73588799999999,
+      "days_analyzed": 6
+    },
+    "sharpe": 1.2085291818891455,
+    "score": 48,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 25,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600900.SH",
+    "pe": 19.2287,
+    "pb": 3.2208,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 69612079.3565,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.074621999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4611494858737129,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601166.SH",
+    "pe": 5.0847,
+    "pb": 0.4589,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 38368264.2735,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.862955999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3677186628301484,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600887.SH",
+    "pe": 16.658,
+    "pb": 3.1396,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 16863411.3596,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5809520000000019,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3122834732654609,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
     }
   },
   {
@@ -24,64 +1863,6840 @@
     "revenue_growth": null,
     "profit_growth": null,
     "market_cap": 10183137.0704,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 96.0,
+      "p_change_max": 108.0,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.706228000000003,
+      "days_analyzed": 6
+    },
     "sharpe": -0.08898852119205439,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "301308.SZ",
+    "pe": 13.0222,
+    "pb": 8.3991,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 15607673.808,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 62204.03,
+      "p_change_max": 74393.95,
+      "ann_date": "20260703"
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.953771000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.03098104478891078,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600660.SH",
+    "pe": 16.6259,
+    "pb": 3.6923,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 14095224.6435,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.07627999999999883,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4473523853673116,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000792.SZ",
+    "pe": 11.1751,
+    "pb": 2.8202,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13467052.0125,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 131.38,
+      "p_change_max": 142.95,
+      "ann_date": "20260703"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.1859100000000036,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.29699822928770797,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600489.SH",
+    "pe": 18.0279,
+    "pb": 3.6591,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11890457.8078,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 52.15,
+      "p_change_max": 70.7,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": 2.0277849999999975,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.0343066126243051,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601985.SH",
+    "pe": 25.5722,
+    "pb": 1.5718,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 18614041.9005,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.792873999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.7542500715281917,
+    "score": 48,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601628.SH",
+    "pe": 4.3361,
+    "pb": 1.6166,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 107377614.295,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 215.0,
+      "p_change_max": 235.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.3653,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5078525341840617,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000568.SZ",
+    "pe": 14.4365,
+    "pb": 2.3698,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10837610.0082,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.7317100000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3993010348608807,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002709.SZ",
+    "pe": 16.654,
+    "pb": 3.2472,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6586592.8527,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 907.84,
+      "p_change_max": 1019.82,
+      "ann_date": "20260710"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.055219,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.15502697342133032,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002466.SZ",
+    "pe": 15.9437,
+    "pb": 1.5245,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7366352.79,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 3276.35,
+      "p_change_max": 4934.91,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.7884390000000012,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.43390160413862555,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601336.SH",
+    "pe": 4.1074,
+    "pb": 1.4717,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 18186956.678,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 40.0,
+      "p_change_max": 60.0,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.2949020000000019,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.06293778232361533,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600958.SH",
+    "pe": 11.3306,
+    "pb": 0.9286,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7579007.6076,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8318919999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.33549200934659923,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600482.SH",
+    "pe": 45.9339,
+    "pb": 1.8893,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7780085.152,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 2.6490630000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": 1.1010054828815068,
+    "score": 48,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 25,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600436.SH",
+    "pe": 39.9244,
+    "pb": 4.9438,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7223516.8356,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.3070309999999998,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.8154291207499094,
+    "score": 48,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600233.SH",
+    "pe": 10.7829,
+    "pb": 1.6449,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6110402.484,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 69.34,
+      "p_change_max": 85.73,
+      "ann_date": "20260701"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.8147700000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.1791335355674049,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "002074.SZ",
+    "pe": 13.3437,
+    "pb": 1.5068,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4540442.8057,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 227.31,
+      "p_change_max": 322.77,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.30309899999999906,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.010243965597339762,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600600.SH",
+    "pe": 14.9678,
+    "pb": 2.1978,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6890549.4501,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.13613499999999987,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.498279801466694,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600061.SH",
+    "pe": 10.6644,
+    "pb": 0.7488,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4028281.614,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.24730899999999964,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.485172739074669,
+    "score": 48,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603501.SH",
+    "pe": 29.8682,
+    "pb": 2.9774,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9669231.4272,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.08160100000000094,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.37601046172816677,
+    "score": 46,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "688111.SH",
+    "pe": 29.4371,
+    "pb": 7.0423,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10617554.6188,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 209.98,
+      "p_change_max": 263.89,
+      "ann_date": "20260729"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.1513249999999971,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5777993157726885,
+    "score": 46,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000538.SZ",
+    "pe": 17.2216,
+    "pb": 2.1948,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8992683.504,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.13966900000000096,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.0644433120013587,
+    "score": 46,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600875.SH",
+    "pe": 18.7291,
+    "pb": 1.8822,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8680484.353,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.0607850000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.01979238077401346,
+    "score": 46,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600886.SH",
+    "pe": 16.2239,
+    "pb": 1.7443,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11574498.7578,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.16276900000000022,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.13102809064781593,
+    "score": 46,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601360.SH",
+    "pe": 80.4438,
+    "pb": 2.1656,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6117613.6046,
+    "forecast": {
+      "type": "扭亏",
+      "p_change_min": 163.8298,
+      "p_change_max": 192.1986,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.4046669999999984,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.7985493472011527,
+    "score": 46,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 10,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000895.SZ",
+    "pe": 16.0325,
+    "pb": 3.9024,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8155812.4648,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.39104699999999976,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.07227561605043836,
+    "score": 46,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601136.SH",
+    "pe": 32.018,
+    "pb": 2.8624,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3963334.01,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.011729000000000815,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.35685043949055056,
+    "score": 46,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "688012.SH",
+    "pe": 75.5248,
+    "pb": 10.6375,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 31952661.2857,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 282.48,
+      "p_change_max": 310.81,
+      "ann_date": "20260804"
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.6418149999999905,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2791198549334471,
+    "score": 45,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600183.SH",
+    "pe": 69.4082,
+    "pb": 19.4866,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 36053701.9191,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 117.0,
+      "p_change_max": 131.0,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.9286559999999824,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.059362864736071705,
+    "score": 45,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603993.SH",
+    "pe": 13.958,
+    "pb": 4.3304,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 38830673.013,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 78.76,
+      "p_change_max": 90.29,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.357777999999991,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.03941136636948998,
+    "score": 45,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600309.SH",
+    "pe": 14.1625,
+    "pb": 2.0531,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 23322013.42,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 60.05,
+      "p_change_max": 69.85,
+      "ann_date": "20260707"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.2075130000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": -1.2691653690140403,
+    "score": 45,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601688.SH",
+    "pe": 8.3251,
+    "pb": 0.9555,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17087853.1734,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 50.0,
+      "p_change_max": 55.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.063748000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.18536301751284465,
+    "score": 45,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002602.SZ",
+    "pe": 15.3912,
+    "pb": 3.3515,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11468781.6588,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 61.87,
+      "p_change_max": 79.57,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.025374000000011,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5954229700530747,
+    "score": 45,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000776.SZ",
+    "pe": 8.6604,
+    "pb": 1.1838,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 16353927.095,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 70.0,
+      "p_change_max": 85.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5669569999999978,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.14614523155870826,
+    "score": 45,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601377.SH",
+    "pe": 13.7442,
+    "pb": 0.8969,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5043416.5832,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 55.0,
+      "p_change_max": 70.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4701470000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.3307917871057781,
+    "score": 45,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601995.SH",
+    "pe": 11.3123,
+    "pb": 1.4821,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 15452049.3369,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 78.0,
+      "p_change_max": 90.0,
+      "ann_date": "20260709"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.621659000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.6523239937730814,
+    "score": 45,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601066.SH",
+    "pe": 14.6618,
+    "pb": 2.1045,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 18429906.8448,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 60.0,
+      "p_change_max": 80.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.20781899999999878,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.3705941368465333,
+    "score": 45,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "301165.SZ",
+    "pe": 126.8957,
+    "pb": 22.315,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11908114.0252,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 32.71,
+      "p_change_max": 65.88,
+      "ann_date": "20260702"
+    },
+    "money_flow": {
+      "net_inflow_10d": -4.986892999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.6605875988582023,
+    "score": 45,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603986.SH",
+    "pe": 32.966,
+    "pb": 7.0111,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 26139867.0274,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 1099.0,
+      "p_change_max": 1099.0,
+      "ann_date": "20260710"
+    },
+    "money_flow": {
+      "net_inflow_10d": -8.599919000000018,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.11690806132546022,
+    "score": 43,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000651.SZ",
+    "pe": 7.7866,
+    "pb": 1.4612,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 21699846.0692,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.04147700000000186,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.020790950662510056,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002415.SZ",
+    "pe": 18.5431,
+    "pb": 3.6128,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 30473197.7375,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.052640999999998,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.012702950326438023,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601601.SH",
+    "pe": 5.6243,
+    "pb": 0.9937,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 31718265.9255,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5072930000000022,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.17414203846661588,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600406.SH",
+    "pe": 21.3142,
+    "pb": 3.438,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17902784.5698,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.5220630000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.41525443154273,
+    "score": 43,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601668.SH",
+    "pe": 5.6756,
+    "pb": 0.3632,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17974369.824,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.9494429999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.23473950564516863,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600941.SH",
+    "pe": 16.083,
+    "pb": 1.4911,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 211963843.2044,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.8832179999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.24108908992266218,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000938.SZ",
+    "pe": 33.4065,
+    "pb": 5.256,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9392502.3916,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 83.5,
+      "p_change_max": 122.89,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": -14.090397999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.41948617757282236,
+    "score": 43,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000977.SZ",
+    "pe": 22.6868,
+    "pb": 4.2221,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10358634.6418,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 226.0,
+      "p_change_max": 288.0,
+      "ann_date": "20260708"
+    },
+    "money_flow": {
+      "net_inflow_10d": -11.084822999999998,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.0663138575813198,
+    "score": 43,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002353.SZ",
+    "pe": 46.2116,
+    "pb": 5.23,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 12177742.0746,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.0706450000000012,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5433567758833066,
+    "score": 43,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "002352.SZ",
+    "pe": 15.0584,
+    "pb": 1.5948,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 16385638.8072,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.361582,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.02816867651205136,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002460.SZ",
+    "pe": 15.2862,
+    "pb": 2.0302,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9785272.7648,
+    "forecast": {
+      "type": "扭亏",
+      "p_change_min": 787.07,
+      "p_change_max": 965.9,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.6415310000000027,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.17113206552964286,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 10,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600549.SH",
+    "pe": 21.8759,
+    "pb": 4.1439,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7745831.1182,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 128.62,
+      "p_change_max": 128.62,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.6224649999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.42809539982334194,
+    "score": 43,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600585.SH",
+    "pe": 14.6899,
+    "pb": 0.4782,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9145144.98,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.9381990000000006,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2517995627200491,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600426.SH",
+    "pe": 13.3285,
+    "pb": 1.5642,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5464136.741,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.6105079999999987,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.29431896839002164,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600015.SH",
+    "pe": 4.0271,
+    "pb": 0.3155,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10105979.5975,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.1268300000000003,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.25715092322947664,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000301.SZ",
+    "pe": 20.8252,
+    "pb": 2.3351,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8845829.0449,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 987.39,
+      "p_change_max": 1194.51,
+      "ann_date": "20260706"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.1219429999999993,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.15304708348082618,
+    "score": 43,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601077.SH",
+    "pe": 6.0402,
+    "pb": 0.5437,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7609190.067,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.2968590000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.17593296770079805,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600415.SH",
+    "pe": 14.6373,
+    "pb": 2.9747,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6574787.4808,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.2534780000000013,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.12011962651898267,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600219.SH",
+    "pe": 12.7025,
+    "pb": 1.1103,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5535144.1712,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8348239999999991,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.08719637690322027,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "605499.SH",
+    "pe": 16.8719,
+    "pb": 4.2513,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8279565.6189,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.850048999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.24490280824365016,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601898.SH",
+    "pe": 10.6534,
+    "pb": 1.1752,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 19530011.1882,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.7655049999999988,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.06136172224230705,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601788.SH",
+    "pe": 15.0837,
+    "pb": 1.0479,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6441270.2772,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.44391900000000023,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.22063437138725747,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601117.SH",
+    "pe": 6.8595,
+    "pb": 0.6312,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4444848.1896,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4951980000000003,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.05867936044917179,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601881.SH",
+    "pe": 9.4171,
+    "pb": 1.0784,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13022873.1393,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8841119999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.27769085662039744,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002920.SZ",
+    "pe": 20.2716,
+    "pb": 3.1227,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5018569.4037,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.665114,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.491119229289896,
+    "score": 43,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600741.SH",
+    "pe": 6.9074,
+    "pb": 0.7221,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4804751.376,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.13786300000000046,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.06620943896853829,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000963.SZ",
+    "pe": 13.3091,
+    "pb": 1.8102,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4605313.0994,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.2325259999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.07583002801101338,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601319.SH",
+    "pe": 6.0898,
+    "pb": 1.018,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 34627384.6398,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.7441119999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2132962005576191,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601021.SH",
+    "pe": 18.9992,
+    "pb": 2.3525,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4162808.617,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.23334699999999975,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.09188821306457817,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300832.SZ",
+    "pe": 22.0491,
+    "pb": 4.2207,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3785593.1061,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.35556899999999986,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.34355610213077875,
+    "score": 43,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000708.SZ",
+    "pe": 11.1082,
+    "pb": 1.5506,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6798523.3077,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.07698300000000018,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.008484205834752656,
+    "score": 43,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002311.SZ",
+    "pe": 21.779,
+    "pb": 2.9842,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7083719.0197,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.17011099999999932,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.13902642765396755,
+    "score": 41,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601868.SH",
+    "pe": 20.5514,
+    "pb": 0.9234,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10927325.2504,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.4333409999999989,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2578296657352221,
+    "score": 41,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "300628.SZ",
+    "pe": 17.7204,
+    "pb": 5.5514,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5112015.744,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 20.0,
+      "p_change_max": 24.0,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8808580000000009,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.4336770187863918,
+    "score": 41,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 8,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601059.SH",
+    "pe": 25.7541,
+    "pb": 2.3563,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5065566.0,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.1638959999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.06775897502453879,
+    "score": 41,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000725.SZ",
+    "pe": 25.1276,
+    "pb": 1.483,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 19744626.824,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 54.0,
+      "p_change_max": 69.0,
+      "ann_date": "20260709"
+    },
+    "money_flow": {
+      "net_inflow_10d": -11.698104999999993,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.08583352746328823,
+    "score": 40,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000858.SZ",
+    "pe": 20.6936,
+    "pb": 2.2851,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 27074215.8,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 88.8,
+      "p_change_max": 98.97,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -4.551297000000003,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.27982711912823327,
+    "score": 40,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600176.SH",
+    "pe": 39.4509,
+    "pb": 5.3923,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17878008.5022,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 65.0,
+      "p_change_max": 85.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.380609999999986,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5525250646443596,
+    "score": 40,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600522.SH",
+    "pe": 31.6257,
+    "pb": 3.0618,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11771263.5153,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 50.0,
+      "p_change_max": 60.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.2543070000000065,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.31063540123279165,
+    "score": 40,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601100.SH",
+    "pe": 48.9126,
+    "pb": 7.4854,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13408210.0,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.27226600000000034,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5373332702255047,
+    "score": 40,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603296.SH",
+    "pe": 22.5451,
+    "pb": 3.6258,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11644398.646,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 53.5,
+      "p_change_max": 61.5,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.5514739999999991,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.3734740460531791,
+    "score": 40,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "605117.SH",
+    "pe": 24.9343,
+    "pb": 9.4783,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10886561.7156,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 75.28,
+      "p_change_max": 79.22,
+      "ann_date": "20260709"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.9525820000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.4600844162009115,
+    "score": 40,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002594.SZ",
+    "pe": 26.0191,
+    "pb": 3.1914,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 76584459.0,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -6.718392000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.18597463724562105,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600276.SH",
+    "pe": 36.6548,
+    "pb": 4.3931,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 28320931.9733,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -10.012327000000003,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.21479154570925102,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002050.SZ",
+    "pe": 36.7107,
+    "pb": 4.5146,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 14673344.4693,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.7114419999999986,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.27086895052463755,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600160.SH",
+    "pe": 21.7204,
+    "pb": 4.3154,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9519304.7486,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.825920000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2894177943310145,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002027.SZ",
+    "pe": 20.1197,
+    "pb": 4.9034,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6860044.8575,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.15172299999999958,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.29844124525972693,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002422.SZ",
+    "pe": 34.2234,
+    "pb": 2.5428,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6259724.022,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8973169999999991,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2853258051969315,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002049.SZ",
+    "pe": 32.2942,
+    "pb": 3.5193,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4982667.9333,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.0897680000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2133091010634991,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601727.SH",
+    "pe": 75.2092,
+    "pb": 1.8418,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10194319.7696,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 12.0,
+      "p_change_max": 22.0,
+      "ann_date": "20260721"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.27206500000000017,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.1686596833370497,
+    "score": 38,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 8,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600221.SH",
+    "pe": 25.4232,
+    "pb": 10.1479,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5574816.5925,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.25091099999999933,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.0004495533210945914,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601456.SH",
+    "pe": 21.5139,
+    "pb": 0.9418,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4942115.736,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.010704999999999564,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.1815846174697045,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300866.SZ",
+    "pe": 24.3278,
+    "pb": 6.4671,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7493577.2192,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.45736900000000025,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2837820097435541,
+    "score": 38,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688223.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4340939999999995,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.8697492872842019,
+    "score": 38,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688256.SH",
+    "pe": 196.2775,
+    "pb": 48.247,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 65400816.0,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 8.230294000000042,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.7138832606806153,
+    "score": 36,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601328.SH",
+    "pe": 6.7805,
+    "pb": 0.566,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 66096110.5988,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.6770589999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.7012045606200844,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601857.SH",
+    "pe": 11.6841,
+    "pb": 1.2557,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 205715579.0472,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 2.976954999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.30523960875471634,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000338.SZ",
+    "pe": 17.5155,
+    "pb": 2.3673,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 22749700.8398,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 4.459237999999995,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.014526302347414548,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000001.SZ",
+    "pe": 5.2423,
+    "pb": 0.4866,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 22782547.9668,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.6551590000000026,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.21395421903971154,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "002142.SZ",
+    "pe": 7.5323,
+    "pb": 0.9656,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 23442747.34,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 2.0595859999999986,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.004725405177454997,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601728.SH",
+    "pe": 19.3437,
+    "pb": 1.2198,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 57557990.2423,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.856037000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.2967777241278037,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600089.SH",
+    "pe": 17.7706,
+    "pb": 1.3349,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9458827.7472,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.2305640000000014,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.18510544018538644,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600016.SH",
+    "pe": 5.6405,
+    "pb": 0.2794,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 16199494.845,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.1378150000000022,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.08095890253458515,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600938.SH",
+    "pe": 11.6483,
+    "pb": 1.8828,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 161174074.014,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 6.821601999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.09839839485955569,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600028.SH",
+    "pe": 18.5662,
+    "pb": 0.7911,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 66750883.8384,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.2386240000000048,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.1267570975816742,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601006.SH",
+    "pe": 15.7846,
+    "pb": 0.5791,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9534188.544,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.11342400000000052,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.42535837736930066,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601818.SH",
+    "pe": 5.4212,
+    "pb": 0.3516,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17843836.4322,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.24956699999999837,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.1307131048383279,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601838.SH",
+    "pe": 6.2617,
+    "pb": 0.9215,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8498062.977,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.15051499999999943,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.15236092358094322,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600104.SH",
+    "pe": 14.5796,
+    "pb": 0.4509,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13472465.23,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 7.480260999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5953646103960577,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600795.SH",
+    "pe": 14.623,
+    "pb": 1.5749,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9488549.3612,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.6494649999999995,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.2932904736284697,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601916.SH",
+    "pe": 6.1905,
+    "pb": 0.446,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8102067.62,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.41413800000000045,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.10681931690809206,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600188.SH",
+    "pe": 20.0709,
+    "pb": 2.792,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 21458789.576,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 49.0,
+      "p_change_max": 49.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.2517790000000009,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.39008700753142617,
+    "score": 36,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 8,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002001.SZ",
+    "pe": 11.361,
+    "pb": 2.3359,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8147640.9267,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.2907490000000006,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.09420600201945933,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601058.SH",
+    "pe": 11.773,
+    "pb": 2.0008,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4534290.3137,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.8573030000000028,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.13192251845630285,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601669.SH",
+    "pe": 9.4291,
+    "pb": 0.5366,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7924033.324,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.040937000000000265,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.36768340212999273,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600570.SH",
+    "pe": 31.4805,
+    "pb": 3.9911,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3876297.2513,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 0.69,
+      "p_change_max": 0.69,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.46596699999999835,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5145594584188272,
+    "score": 36,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 8,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601877.SH",
+    "pe": 10.5103,
+    "pb": 1.1584,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5329443.12,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.6016730000000018,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.045850928804112547,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "001965.SZ",
+    "pe": 14.1335,
+    "pb": 0.9693,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6659193.1,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.35192299999999993,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.010148123067037001,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "688009.SH",
+    "pe": 14.4215,
+    "pb": 1.0861,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5104292.758,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.158491,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.4651456578499088,
+    "score": 36,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601238.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "增亏",
+      "p_change_min": -80.0453,
+      "p_change_max": -59.9527,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.022139000000000304,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3300907123449314,
+    "score": 36,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "688041.SH",
+    "pe": 170.8091,
+    "pb": 21.1508,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 53666642.3909,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 41.5,
+      "p_change_max": 52.32,
+      "ann_date": "20260717"
+    },
+    "money_flow": {
+      "net_inflow_10d": -9.947505999999983,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.05842229836317624,
+    "score": 35,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000063.SZ",
+    "pe": 46.4492,
+    "pb": 2.0423,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 15388631.7733,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -6.058687999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4035993988006278,
+    "score": 35,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600584.SH",
+    "pe": 62.511,
+    "pb": 4.1878,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 12121494.5004,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 63.48,
+      "p_change_max": 101.7,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -10.863746999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.4468098680137284,
+    "score": 35,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600111.SH",
+    "pe": 40.1683,
+    "pb": 5.1607,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13549266.6184,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 112.74,
+      "p_change_max": 121.33,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.508527999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.3758497075271783,
+    "score": 35,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002916.SZ",
+    "pe": 64.8413,
+    "pb": 14.9863,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 27020516.6888,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 54.41,
+      "p_change_max": 69.12,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": 2.7452479999999984,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.6892943838215085,
+    "score": 35,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000657.SZ",
+    "pe": 47.4317,
+    "pb": 11.8214,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13334392.9488,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 261.0,
+      "p_change_max": 298.0,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.710579999999998,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5766399588979634,
+    "score": 35,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603893.SH",
+    "pe": 55.7763,
+    "pb": 15.4975,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7629279.108,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 60.03,
+      "p_change_max": 71.33,
+      "ann_date": "20260708"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.4275290000000038,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.46707027212283075,
+    "score": 35,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601398.SH",
+    "pe": 7.7256,
+    "pb": 0.7295,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 289045474.5081,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.15882700000000186,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.032635440560092724,
     "score": 33,
     "breakdown": {
       "valuation": 25,
       "profitability": 5,
       "growth": 3,
-      "technical": 0
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
     }
   },
   {
-    "code": "688515.SH",
+    "code": "300059.SZ",
+    "pe": 19.8679,
+    "pb": 2.944,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 28970448.0169,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.809336999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.37964283768202367,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600000.SH",
+    "pe": 6.02,
+    "pb": 0.4091,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 30841206.2658,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.45545,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.30833825630891076,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601919.SH",
+    "pe": 9.2404,
+    "pb": 1.0574,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 24719091.0803,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.8115850000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.16107187246375318,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601229.SH",
+    "pe": 5.6927,
+    "pb": 0.5372,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13811185.6164,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.10149199999999982,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.06565507984491062,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300014.SZ",
+    "pe": 18.1159,
+    "pb": 2.1054,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10562222.934,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.5366720000000003,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.14434678613533405,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600690.SH",
+    "pe": 10.9586,
+    "pb": 1.6332,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 19545788.3082,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.8706310000000013,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.47170817621711264,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000425.SZ",
+    "pe": 15.2842,
+    "pb": 1.4621,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9439235.663,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.5183970000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5917495025832655,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002241.SZ",
+    "pe": 19.8359,
+    "pb": 2.0821,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7913131.218,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.22025499999999884,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.07778765961555145,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603799.SH",
+    "pe": 9.8859,
+    "pb": 1.3422,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6828060.165,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8858190000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.4609541463519472,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600809.SH",
+    "pe": 13.6825,
+    "pb": 3.6569,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13929551.2356,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.9378470000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.154717404364752,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300442.SZ",
+    "pe": 18.6522,
+    "pb": 6.9131,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10018561.41,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.6377360000000014,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.08156110813101193,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002837.SZ",
+    "pe": 157.6915,
+    "pb": 21.6018,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7743312.5741,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -6.030419999999995,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5847135442273621,
+    "score": 33,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688271.SH",
+    "pe": 48.0574,
+    "pb": 3.8578,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8497893.138,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.29526500000000017,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2590860111726766,
+    "score": 33,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601825.SH",
+    "pe": 6.8747,
+    "pb": 0.6391,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8506399.9608,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4417099999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.08847332764848852,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601390.SH",
+    "pe": 5.4608,
+    "pb": 0.3335,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10769245.2217,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.726976000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.560908445441964,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002179.SZ",
+    "pe": 40.1239,
+    "pb": 3.0482,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7397067.4686,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.8524360000000015,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.009902483306661082,
+    "score": 33,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600066.SH",
+    "pe": 10.7622,
+    "pb": 4.5503,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5904575.8464,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.6611449999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.19574229939825796,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000157.SZ",
+    "pe": 13.4389,
+    "pb": 0.9789,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5638844.9504,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5474489999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.3585289787737794,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002236.SZ",
+    "pe": 13.8226,
+    "pb": 1.3312,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5204665.2632,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.6487669999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.15321179708602403,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600196.SH",
+    "pe": 17.0148,
+    "pb": 1.1837,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5768127.288,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.2762290000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.43662973847079933,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601901.SH",
+    "pe": 12.302,
+    "pb": 1.0588,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5589596.8506,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.01578900000000067,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.2691861725592995,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601186.SH",
+    "pe": 5.0661,
+    "pb": 0.2984,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8283520.315,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.1821010000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.2580400549249194,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600039.SH",
+    "pe": 10.3551,
+    "pb": 1.5613,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7878205.0836,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.3475600000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.0680819688428022,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "301269.SZ",
+    "pe": 3688.253,
+    "pb": 9.1554,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4740211.4545,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5846999999999986,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5293025073058544,
+    "score": 33,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000002.SZ",
     "pe": null,
     "pb": null,
     "roe": null,
     "revenue_growth": null,
     "profit_growth": null,
     "market_cap": null,
-    "sharpe": 0.1331633045634747,
+    "forecast": {
+      "type": "增亏",
+      "p_change_min": -25.559,
+      "p_change_max": -0.4472,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8312139999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.36961461238368576,
+    "score": 33,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603369.SH",
+    "pe": 14.5556,
+    "pb": 2.0853,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3575822.4,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.07961800000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.9780623953083447,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600027.SH",
+    "pe": 10.7498,
+    "pb": 1.1388,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5666545.8096,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4447419999999991,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.04255028315347227,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300251.SZ",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.1428540000000008,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.44680204427826153,
+    "score": 33,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601018.SH",
+    "pe": 13.3539,
+    "pb": 0.8365,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6828490.3284,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.08297299999999959,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.03634273991355341,
+    "score": 33,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002463.SZ",
+    "pe": 48.7468,
+    "pb": 13.7193,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 24679961.8875,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 68.17,
+      "p_change_max": 78.28,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.048068000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.17974013915547776,
+    "score": 32,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300033.SZ",
+    "pe": 42.6194,
+    "pb": 20.3064,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 15579648.0,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 75.0,
+      "p_change_max": 95.0,
+      "ann_date": "20260720"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.6352900000000024,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.03884165399673981,
+    "score": 32,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600460.SH",
+    "pe": 77.0207,
+    "pb": 4.0517,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5003863.9026,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 96.05,
+      "p_change_max": 96.05,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.9195600000000006,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.08180605953461212,
+    "score": 32,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002384.SZ",
+    "pe": 99.332,
+    "pb": 14.6142,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 35610113.015,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 282.58,
+      "p_change_max": 295.78,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": 7.9855929999999935,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.6554876869185032,
+    "score": 31,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 15,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "003816.SZ",
+    "pe": 22.0342,
+    "pb": 1.768,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 21865990.792,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.4404140000000014,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5041698137960834,
+    "score": 31,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600025.SH",
+    "pe": 22.1417,
+    "pb": 2.6191,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 18314365.6969,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.20043199999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.1280295702853079,
+    "score": 31,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "000596.SZ",
+    "pe": 23.7315,
+    "pb": 1.9563,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4869463.2,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.07350599999999977,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.09864788769769484,
+    "score": 31,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "603260.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "扭亏",
+      "p_change_min": 180.587,
+      "p_change_max": 195.697,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.056245999999999546,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.42044119603886343,
+    "score": 31,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 10,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "300433.SZ",
+    "pe": 50.8767,
+    "pb": 3.3278,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 17562370.9743,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -5.577953999999998,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.17163899426262885,
+    "score": 30,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "302132.SZ",
+    "pe": 52.4894,
+    "pb": 8.1114,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 16946403.6588,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.40236399999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.2626183021893545,
+    "score": 30,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688472.SH",
+    "pe": 52.0564,
+    "pb": 1.3385,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3042021.9835,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.7676269999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.02983488538243096,
+    "score": 30,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600031.SH",
+    "pe": 20.472,
+    "pb": 1.9751,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 18187718.7032,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -4.3080310000000015,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.45983079014478007,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300124.SZ",
+    "pe": 29.648,
+    "pb": 3.9423,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 14501254.704,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.6878850000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.12563727229562657,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300760.SZ",
+    "pe": 25.0764,
+    "pb": 4.8623,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 19719611.6362,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.1743130000000006,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.028596876124821907,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002028.SZ",
+    "pe": 31.7326,
+    "pb": 6.4052,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10538914.3887,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.8236180000000022,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.6130460196522465,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300498.SZ",
+    "pe": NaN,
+    "pb": 2.8257,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9894392.8691,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.0701959999999993,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3872477174017372,
+    "score": 28,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601012.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "增亏",
+      "p_change_min": -47.9175,
+      "p_change_max": -32.3472,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.3230259999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.23963879470527338,
     "score": 28,
     "breakdown": {
       "valuation": 10,
       "profitability": 5,
       "growth": 3,
-      "technical": 10
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
     }
   },
   {
-    "code": "002180.SZ",
+    "code": "600547.SH",
+    "pe": 29.1955,
+    "pb": 4.824,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 15982625.5765,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.630049999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.9533172610897027,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603288.SH",
+    "pe": 27.3315,
+    "pb": 5.1156,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 19998871.81,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8565029999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.06391875316644986,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600893.SH",
+    "pe": 161.0336,
+    "pb": 2.7613,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11091537.8823,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 52.54,
+      "p_change_max": 68.89,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.1421969999999972,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.3280564648255415,
+    "score": 28,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "601888.SH",
+    "pe": 26.231,
+    "pb": 1.8687,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10735975.0322,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.894493000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.640368947776664,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002202.SZ",
+    "pe": 25.0093,
+    "pb": 1.9946,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7856246.982,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.1316570000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.30350931913044954,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601689.SH",
+    "pe": 29.8803,
+    "pb": 3.0928,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7490071.436,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.2306839999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.06389990370496326,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300015.SZ",
+    "pe": 29.4363,
+    "pb": 3.2561,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7495449.1756,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5842320000000008,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.9369790324822032,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300450.SZ",
+    "pe": 27.9133,
+    "pb": 2.7614,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4967414.8938,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.9202110000000001,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.12521092584427243,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600009.SH",
+    "pe": 25.3113,
+    "pb": 1.3432,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5792792.664,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.370375,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.29102365474205777,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002304.SZ",
+    "pe": 123.5678,
+    "pb": 1.2155,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5735036.4957,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.11960400000000009,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4710852093104114,
+    "score": 28,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "301236.SZ",
+    "pe": 442.1499,
+    "pb": 2.8385,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3716329.587,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.3276099999999977,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.4185956827786744,
+    "score": 28,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600588.SH",
     "pe": null,
     "pb": null,
     "roe": null,
     "revenue_growth": null,
     "profit_growth": null,
     "market_cap": null,
-    "sharpe": -0.7975308081893764,
-    "score": 18,
+    "forecast": {
+      "type": "减亏",
+      "p_change_min": 1.5373,
+      "p_change_max": 15.3009,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.49093299999999873,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.029366739693298772,
+    "score": 28,
     "breakdown": {
       "valuation": 10,
       "profitability": 5,
       "growth": 3,
-      "technical": 0
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
     }
   },
   {
-    "code": "00700.HK",
+    "code": "600085.SH",
+    "pe": 33.0827,
+    "pb": 2.3557,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3209240.502,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.07935499999999956,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.17619927370769936,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300999.SZ",
+    "pe": 38.7418,
+    "pb": 1.4672,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 14302158.377,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.6023869999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.424314868270716,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600845.SH",
+    "pe": 37.5257,
+    "pb": 4.3975,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4875584.3946,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5752169999999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.31335277879163864,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300896.SZ",
+    "pe": 24.2255,
+    "pb": 3.3528,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 2652522.3486,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.396009,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.802035859331868,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600930.SH",
+    "pe": 33.7153,
+    "pb": 1.478,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 16393714.2801,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.14353999999999942,
+      "days_analyzed": 6
+    },
+    "sharpe": -1.207337782718672,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "001391.SZ",
+    "pe": 21.4796,
+    "pb": 1.8204,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4859134.7176,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.00898000000000011,
+      "days_analyzed": 6
+    },
+    "sharpe": -1.029752105169058,
+    "score": 28,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600010.SH",
+    "pe": 193.8257,
+    "pb": 1.8558,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9723597.095,
+    "forecast": {
+      "type": "预增",
+      "p_change_min": 52.0,
+      "p_change_max": 98.0,
+      "ann_date": "20260714"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.29716900000000024,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.28020444777145076,
+    "score": 25,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 12,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300394.SZ",
+    "pe": 123.0467,
+    "pb": 45.7308,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 28575251.7,
+    "forecast": {
+      "type": "略增",
+      "p_change_min": 25.0,
+      "p_change_max": 45.0,
+      "ann_date": "20260718"
+    },
+    "money_flow": {
+      "net_inflow_10d": 15.88418799999999,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.259274217628215,
+    "score": 24,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 8,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "002230.SZ",
+    "pe": 107.5402,
+    "pb": 4.1175,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 9404142.5775,
+    "forecast": {
+      "type": "减亏",
+      "p_change_min": 5.0,
+      "p_change_max": 25.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.632336,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.1894518536361976,
+    "score": 23,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002938.SZ",
+    "pe": 56.6766,
+    "pb": 6.2448,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 21471977.5255,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.0622469999999973,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.04469742969436618,
+    "score": 23,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600118.SH",
+    "pe": 680.9538,
+    "pb": 10.6975,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6851341.8454,
+    "forecast": {
+      "type": "扭亏",
+      "p_change_min": 200.0279,
+      "p_change_max": 219.7055,
+      "ann_date": "20260713"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.2917790000000008,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.2971246642342271,
+    "score": 23,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 10,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000625.SZ",
+    "pe": 26.9028,
+    "pb": 0.9204,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6998511.3536,
+    "forecast": {
+      "type": "预减",
+      "p_change_min": -67.7,
+      "p_change_max": -57.66,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.3144580000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.3508036295579087,
+    "score": 23,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 15,
+      "event": -20,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601698.SH",
+    "pe": 273.0407,
+    "pb": 6.4282,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10206115.1264,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5083090000000003,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.1883510189749718,
+    "score": 23,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600029.SH",
+    "pe": NaN,
+    "pb": 2.9661,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8933638.4565,
+    "forecast": {
+      "type": "增亏",
+      "p_change_min": -159.165,
+      "p_change_max": -126.5492,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.29334700000000014,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.24579128913809395,
+    "score": 23,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601111.SH",
+    "pe": NaN,
+    "pb": 1.9888,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 11906177.9584,
+    "forecast": {
+      "type": "增亏",
+      "p_change_min": -43.9646,
+      "p_change_max": -16.2791,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.35935899999999965,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.15004198964789744,
+    "score": 23,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600515.SH",
+    "pe": 149.8395,
+    "pb": 1.3014,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3141960.14,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4880669999999998,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.025602928092544806,
+    "score": 23,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "001280.SZ",
+    "pe": 71.1402,
+    "pb": 7.6741,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13288068.065,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.3109260000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.9981779039586941,
+    "score": 23,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "688506.SH",
     "pe": null,
     "pb": null,
     "roe": null,
     "revenue_growth": null,
     "profit_growth": null,
     "market_cap": null,
-    "sharpe": 0.0,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.2119820000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.04445055733373225,
+    "score": 21,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "300476.SZ",
+    "pe": 44.7799,
+    "pb": 5.9365,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 22504789.1352,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.2115580000000075,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.37048285461544694,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603019.SH",
+    "pe": 49.7479,
+    "pb": 5.2202,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 12034126.6325,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -6.5705910000000065,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.3737391368463742,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000988.SZ",
+    "pe": 59.8355,
+    "pb": 8.7349,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10445163.0864,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -6.079159999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.4888470688735605,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600760.SH",
+    "pe": 47.6922,
+    "pb": 5.8163,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13613331.459,
+    "forecast": {
+      "type": "预减",
+      "p_change_min": -58.23,
+      "p_change_max": -58.23,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.1080389999999998,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.5709366413408474,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 20,
+      "event": -20,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002600.SZ",
+    "pe": 50.1421,
+    "pb": 3.375,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10637601.384,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.6691320000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.22094326799852596,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688082.SH",
+    "pe": 78.4506,
+    "pb": 9.072,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 13251137.4428,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.7708000000000015,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5506134325924725,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688396.SH",
+    "pe": 71.222,
+    "pb": 3.1679,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7436651.7093,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.3704050000000003,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.6525634182889399,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "000768.SZ",
+    "pe": 68.7518,
+    "pb": 2.9222,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6545556.1754,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.5971050000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.047403545487260106,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600372.SH",
+    "pe": 55.8029,
+    "pb": 1.5119,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5767964.7472,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.2871870000000003,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.53692557480954,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300413.SZ",
+    "pe": 49.9563,
+    "pb": 1.4401,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 3324271.0393,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.13117299999999812,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.2604551291957878,
+    "score": 20,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688521.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.5742079999999956,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.2308507316214184,
     "score": 18,
     "breakdown": {
       "valuation": 10,
       "profitability": 5,
       "growth": 3,
-      "technical": 0
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688126.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.3754839999999997,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.06037309415546216,
+    "score": 18,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600048.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.1295540000000008,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.7721397446582139,
+    "score": 18,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688047.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4382020000000004,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.514801061621523,
+    "score": 18,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300122.SZ",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.3542810000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": -1.1072986217821397,
+    "score": 18,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "603392.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "减亏",
+      "p_change_min": 2.8035,
+      "p_change_max": 19.4658,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.038416999999999826,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.12661066096384826,
+    "score": 18,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688303.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.29939799999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5273868956343666,
+    "score": 18,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600115.SH",
+    "pe": NaN,
+    "pb": 7.5402,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7531918.2147,
+    "forecast": {
+      "type": "增亏",
+      "p_change_min": -67.7149,
+      "p_change_max": -25.7862,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.25950500000000176,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5456616798907259,
+    "score": 16,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600023.SH",
+    "pe": 12.1963,
+    "pb": 0.914,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6731183.8154,
+    "forecast": {
+      "type": "预减",
+      "p_change_min": -61.85,
+      "p_change_max": -54.21,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.0540109999999994,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.1574975074392149,
+    "score": 16,
+    "breakdown": {
+      "valuation": 25,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": -20,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "002371.SZ",
+    "pe": 80.9437,
+    "pb": 11.3476,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 46008695.28,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.1797320000000067,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.46216968095866695,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688981.SH",
+    "pe": 139.483,
+    "pb": 5.8633,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 100529548.6686,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -2.5610579999999956,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.16529405499608613,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "688072.SH",
+    "pe": 83.3979,
+    "pb": 14.2662,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 18140455.8504,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -3.076285999999993,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.1961858049086486,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300661.SZ",
+    "pe": 96.5836,
+    "pb": 7.5748,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 7403478.0916,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.7241709999999992,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.049287934953136665,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002625.SZ",
+    "pe": 93.5496,
+    "pb": 5.9024,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5800150.5245,
+    "forecast": {
+      "type": "略减",
+      "p_change_min": -24.3,
+      "p_change_max": -5.64,
+      "ann_date": "20260722"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.2087479999999996,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.5292333725948974,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300418.SZ",
+    "pe": 160.4719,
+    "pb": 3.8036,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5629737.0207,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -6.337668000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.18383334053891076,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300803.SZ",
+    "pe": 232.2317,
+    "pb": 15.2901,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 4890082.204,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.5323820000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.22459864867149193,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "300316.SZ",
+    "pe": 109.6737,
+    "pb": 3.0559,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5242063.8014,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.7402220000000002,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.19451397128226544,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601618.SH",
+    "pe": 97.6843,
+    "pb": 0.5224,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 5359129.3728,
+    "forecast": {
+      "type": "",
+      "p_change_min": 0,
+      "p_change_max": 0,
+      "ann_date": ""
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.22336100000000006,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.6936618364031005,
+    "score": 13,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": 0,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601633.SH",
+    "pe": 20.7274,
+    "pb": 1.4268,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 12421624.2704,
+    "forecast": {
+      "type": "预减",
+      "p_change_min": -62.92,
+      "p_change_max": -58.97,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": 0.04826299999999974,
+      "days_analyzed": 6
+    },
+    "sharpe": -1.115801316833465,
+    "score": 11,
+    "breakdown": {
+      "valuation": 20,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": -20,
+      "money_flow": 3
+    }
+  },
+  {
+    "code": "600438.SH",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": null,
+    "forecast": {
+      "type": "续亏",
+      "p_change_min": -8.9808,
+      "p_change_max": 3.1282,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.4494939999999988,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.07775946177096012,
+    "score": 8,
+    "breakdown": {
+      "valuation": 10,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": -20,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "600905.SH",
+    "pe": 93.5309,
+    "pb": 1.1783,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 10463079.9366,
+    "forecast": {
+      "type": "预减",
+      "p_change_min": -73.0,
+      "p_change_max": -66.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.08052200000000012,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.03257000439040465,
+    "score": 3,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": -20,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "001979.SZ",
+    "pe": 587.9939,
+    "pb": 0.6253,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 6094837.7672,
+    "forecast": {
+      "type": "预减",
+      "p_change_min": -65.0,
+      "p_change_max": -55.0,
+      "ann_date": "20260715"
+    },
+    "money_flow": {
+      "net_inflow_10d": -1.0806240000000005,
+      "days_analyzed": 6
+    },
+    "sharpe": 0.05748171623669748,
+    "score": 3,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 10,
+      "event": -20,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "601127.SH",
+    "pe": 62.1952,
+    "pb": 2.1559,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 8079326.8938,
+    "forecast": {
+      "type": "首亏",
+      "p_change_min": -161.2037,
+      "p_change_max": -151.0031,
+      "ann_date": "20260713"
+    },
+    "money_flow": {
+      "net_inflow_10d": -0.8478820000000007,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.06582613312554947,
+    "score": 0,
+    "breakdown": {
+      "valuation": 12,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": -20,
+      "money_flow": 0
+    }
+  },
+  {
+    "code": "002714.SZ",
+    "pe": NaN,
+    "pb": 3.0757,
+    "roe": null,
+    "revenue_growth": null,
+    "profit_growth": null,
+    "market_cap": 24350497.5498,
+    "forecast": {
+      "type": "首亏",
+      "p_change_min": -163.63,
+      "p_change_max": -154.13,
+      "ann_date": "20260711"
+    },
+    "money_flow": {
+      "net_inflow_10d": 1.5749330000000017,
+      "days_analyzed": 6
+    },
+    "sharpe": -0.020086760773710965,
+    "score": -4,
+    "breakdown": {
+      "valuation": 5,
+      "profitability": 5,
+      "growth": 3,
+      "technical": 0,
+      "event": -20,
+      "money_flow": 3
     }
   }
 ]

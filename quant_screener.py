@@ -76,16 +76,26 @@ def get_financial_metrics(code: str) -> dict:
 
     # 2. 财务指标 (ROE / 增速)
     try:
-        df = pro.fina_indicator(ts_code=code, period=datetime.now().strftime("%Y%m%d"))
-        if df is None or len(df) == 0:
-            # 上一季度
-            last_q = (datetime.now() - timedelta(days=120)).strftime("%Y%m%d")
-            df = pro.fina_indicator(ts_code=code, period=last_q)
-        if df is not None and len(df) > 0:
-            latest = df.iloc[0]
-            metrics["roe"] = float(latest.get("roe", 0)) or None
-            metrics["revenue_growth"] = float(latest.get("or_yoy", 0)) or None  # 营收同比
-            metrics["profit_growth"] = float(latest.get("netprofit_yoy", 0)) or None
+        # 用标准季报日期: 0331, 0630, 0930, 1231
+        from calendar import monthrange
+        today = datetime.now()
+        # 找最近的已发布季报日
+        for month, day in [(3, 31), (6, 30), (9, 30), (12, 31)]:
+            period_date = today.replace(month=month, day=day)
+            if period_date > today:
+                period_date = period_date.replace(year=today.year - 1)
+            period_str = period_date.strftime("%Y%m%d")
+            # 季报通常发布在 quarter_end + 30~90 天
+            if (today - period_date).days < 180:  # 半年内
+                df = pro.fina_indicator(ts_code=code, period=period_str,
+                                         fields='ts_code,period,roe,or_yoy,netprofit_yoy')
+                if df is not None and len(df) > 0:
+                    latest = df.iloc[0]
+                    metrics["roe"] = float(latest.get("roe", 0)) or None
+                    metrics["revenue_growth"] = float(latest.get("or_yoy", 0)) or None
+                    metrics["profit_growth"] = float(latest.get("netprofit_yoy", 0)) or None
+                    metrics["report_period"] = period_str
+                    break
     except Exception as e:
         print(f"  {code} fina_indicator err: {e}")
 
@@ -122,15 +132,72 @@ def run_lean_backtest(code: str) -> float:
         return 0.0
 
 
+def get_factor_value(code: str, factors: list = None) -> dict:
+    """拉 tushare 因子库（pro 会员权限）"""
+    pro = get_tushare_pro()
+    if factors is None:
+        factors = ["MACD", "BOLL", "KDJ_J", "RSI", "BIAS", "MACD", "MTM", "ROC"]
+    try:
+        # 最近 1 天的因子值
+        yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y%m%d")
+        df = pro.factor_value(ts_code=code, trade_date=yesterday)
+        if df is not None and len(df) > 0:
+            return {row["factor_name"]: float(row["factor_value"]) for _, row in df.iterrows()}
+    except Exception as e:
+        return {}
+    return {}
+
+
+def get_money_flow(code: str) -> dict:
+    """拉主力资金流"""
+    pro = get_tushare_pro()
+    try:
+        end = datetime.now().strftime("%Y%m%d")
+        start = (datetime.now() - timedelta(days=10)).strftime("%Y%m%d")
+        df = pro.moneyflow(ts_code=code, start_date=start, end_date=end)
+        if df is not None and len(df) > 0:
+            # 10 天累计主力净流入
+            buy_lg_amount = df["buy_lg_amount"].astype(float).sum() if "buy_lg_amount" in df.columns else 0
+            sell_lg_amount = df["sell_lg_amount"].astype(float).sum() if "sell_lg_amount" in df.columns else 0
+            return {
+                "net_inflow_10d": (buy_lg_amount - sell_lg_amount) / 1e4,  # 万元
+                "days_analyzed": len(df),
+            }
+    except:
+        return {"net_inflow_10d": 0, "days_analyzed": 0}
+    return {"net_inflow_10d": 0, "days_analyzed": 0}
+
+
+def get_forecast_event(code: str) -> dict:
+    """拉最近 90 天的业绩预告/快报（事件驱动 alpha）"""
+    pro = get_tushare_pro()
+    try:
+        end = datetime.now().strftime("%Y%m%d")
+        start = (datetime.now() - timedelta(days=90)).strftime("%Y%m%d")
+        # 业绩预告
+        df = pro.forecast(ts_code=code, start_date=start, end_date=end)
+        if df is not None and len(df) > 0:
+            latest = df.iloc[0]
+            return {
+                "type": str(latest.get("type", "")),
+                "p_change_min": float(latest.get("p_change_min", 0) or 0),
+                "p_change_max": float(latest.get("p_change_max", 0) or 0),
+                "ann_date": str(latest.get("ann_date", "")),
+            }
+    except Exception as e:
+        return {"type": "", "p_change_min": 0, "p_change_max": 0, "ann_date": ""}
+    return {"type": "", "p_change_min": 0, "p_change_max": 0, "ann_date": ""}
+
+
 def score_stock(metrics: dict, sharpe: float) -> dict:
-    """打分：4 个维度各 25 分"""
+    """打分：5 个维度（4 个原 + 1 个事件 alpha）"""
     score = 0
     breakdown = {}
 
     # 估值 (25分)
     pe = metrics.get("pe") or 0
     if pe <= 0:
-        valuation = 10  # 亏损公司
+        valuation = 10
     elif pe < 20:
         valuation = 25
     elif pe < 40:
@@ -186,6 +253,42 @@ def score_stock(metrics: dict, sharpe: float) -> dict:
     breakdown["technical"] = tech
     score += tech
 
+    # 事件 alpha (15分) - 业绩预告/快报
+    event = metrics.get("forecast", {})
+    event_type = event.get("type", "")
+    p_change_max = event.get("p_change_max", 0)
+    if "预增" in event_type or "略增" in event_type:
+        if p_change_max > 100:
+            event_score = 15
+        elif p_change_max > 50:
+            event_score = 12
+        else:
+            event_score = 8
+    elif "扭亏" in event_type:
+        event_score = 10
+    elif "预减" in event_type or "首亏" in event_type or "续亏" in event_type:
+        event_score = -20  # 重罚
+    else:
+        event_score = 0
+    breakdown["event"] = event_score
+    score += event_score
+
+    # 资金流 alpha (10分) - 主力净流入
+    mf = metrics.get("money_flow", {})
+    net_inflow = mf.get("net_inflow_10d", 0)  # 万元
+    if net_inflow > 5000:  # 5000 万以上主力流入
+        mf_score = 10
+    elif net_inflow > 1000:
+        mf_score = 6
+    elif net_inflow > 0:
+        mf_score = 3
+    elif net_inflow > -1000:
+        mf_score = 0
+    else:
+        mf_score = -5
+    breakdown["money_flow"] = mf_score
+    score += mf_score
+
     metrics["sharpe"] = sharpe
     metrics["score"] = score
     metrics["breakdown"] = breakdown
@@ -225,6 +328,10 @@ def main():
             print(f"    进度: {i}/{len(codes)}")
         metrics = get_financial_metrics(code)
         sharpe = run_lean_backtest(code)
+        # 业绩预告事件 alpha
+        metrics["forecast"] = get_forecast_event(code)
+        # 资金流 alpha
+        metrics["money_flow"] = get_money_flow(code)
         scored = score_stock(metrics, sharpe)
         results.append(scored)
 
